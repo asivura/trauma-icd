@@ -80,9 +80,12 @@ class TraumalIcdTrainingArguments:
     learning_rate: float = field(default=2e-5, metadata={"help": "The initial learning rate for AdamW."})
     num_train_epochs: float = field(default=20.0, metadata={"help": "Total number of training epochs to perform."})
     warmup_steps: int = field(default=1000, metadata={"help": "Linear warmup over warmup_steps."})
+    metric_for_best_model: str = field(default="eval_f1_score_weighted", metadata={"help": "The metric for selecting the best model for final evaluation."})
+    is_pretrain: bool = field(default=False, metadata={"help": "Whether to pretrain model on 5-char ICD10 codes."})
+    is_evaluate: bool = field(default=False, metadata={"help": "Whether just to evaluate a previously trained and saved model."})
 
     log_level: Optional[str] = field(
-        default=logging.WARNING,
+        default=logging.INFO,
         metadata={
             "help": (
                 "Logger log level to use on the main node. Possible choices are the log levels as strings: 'debug', "
@@ -103,7 +106,7 @@ class TraumalIcdTrainer(Trainer):
             per_device_train_batch_size=traumal_icd_training_args.per_device_train_batch_size,
             per_device_eval_batch_size=traumal_icd_training_args.per_device_eval_batch_size,
             evaluation_strategy="epoch",
-            metric_for_best_model='eval_f1_score_weighted',
+            metric_for_best_model=traumal_icd_training_args.metric_for_best_model,
             greater_is_better=True,
             logging_strategy='no',
             save_strategy='epoch',
@@ -139,7 +142,7 @@ class TraumalIcdTrainer(Trainer):
             eval_dataset = self.eval_dataset
 
         eval_dataloader = self.get_eval_dataloader(eval_dataset)
-
+        logger.info("Performing evaluation...")
         eval_loop = self.prediction_loop if self.args.use_legacy_prediction_loop else self.evaluation_loop
         output = eval_loop(
             eval_dataloader,
@@ -176,8 +179,12 @@ class TraumalIcdTrainer(Trainer):
         n_pos_examples = sum(train_ds['label'])
         n_neg_examples = n_examples - n_pos_examples
         neg_weight = n_pos_examples/n_neg_examples
-        weights = list(map(lambda x: 1 if x==1 else neg_weight, train_ds['label']))
+        pos_weight = 1
+        logger.info(f"There are {n_pos_examples} positive and {n_neg_examples} negative examples in training set.")
+        weights = list(map(lambda x: pos_weight if x==1 else neg_weight, train_ds['label']))
         sampler = WeightedRandomSampler(weights, int(n_pos_examples*2), replacement=False)
+        logger.info(f"Using weighted sampling: positive weight = {pos_weight:.2f} , negative weight = {neg_weight:.2f}")
+        logger.info(f"We will draw {int(n_pos_examples*2)} context-label pairs during one epoch.")
         
         return DataLoader(
             train_ds,
@@ -209,22 +216,30 @@ def main():
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
         datefmt="%m/%d/%Y %H:%M:%S",
         handlers=[logging.StreamHandler(sys.stdout)],
+        level=logging.NOTSET
     )
-    ds_path = os.path.join(model_args.model_dir, model_args.model_name, 'encoded_ds')
-    ds, label_names = load_ds(model_args.data_dir)
     
-    logger.warning(f'Loading base model {model_args.model_name}...')
+    assert not (training_args.is_evaluate and training_args.is_pretrain), "Please choose only one of is_pretrain or is_evaluate"
+    ds_path = os.path.join(model_args.model_dir, model_args.model_name, model_args.experiment_name, 'encoded_ds')
+    ds, label_names = load_ds(model_args.data_dir, is_pretrain=training_args.is_pretrain)
+    
+    logger.info(f'Loading base model and tokenizer: {model_args.model_name}...')
     tokenizer = load_tokenizer(model_args.model_name, model_args.model_dir)
     model = load_model(model_args.model_name, model_args.model_dir)
 
     if not os.path.exists(ds_path):
-        logger.warning(f'Encoding dataset...')
-        pairs_ds = generate_pairs_ds(ds, label_names, model_args.data_dir)
+        logger.info(f'No tokenized dataset exist yet, so generating context-label pairs...')
+        pairs_ds = generate_pairs_ds(ds, label_names, model_args.data_dir, training_args.is_pretrain)
+        logger.info(f'Finished generating context-label pairs, now tokenizing them into dataset...')
         ds_encoded = encode_ds(pairs_ds, tokenizer, model.config.max_position_embeddings)
         ds_encoded.save_to_disk(ds_path)
-    
-    ds_encoded = datasets.load_from_disk(ds_path)
+        logger.info(f"Saved tokenized dataset to {ds_path}")
+    else:
+        logger.info(f"Loading existing tokenized dataset...")
 
+    ds_encoded = datasets.load_from_disk(ds_path)
+    logger.info(f"Loaded tokenized dataset from {ds_path}")
+    
     logging_dir = os.path.join(model_args.model_dir, 'runs', model_args.model_name, 
         model_args.experiment_name)
 
@@ -236,30 +251,32 @@ def main():
                                 model_args.experiment_name)
     
 
-    eval_ds = ds_encoded['reduced_validation']
+    eval_ds_reduced = ds_encoded['reduced_validation']
+    eval_ds_full = ds_encoded['validation']
 
     # patient_id = eval_ds[0]['patient_id']
     # eval_ds = eval_ds.filter(lambda row: row['patient_id'] in ['1145', '1257'])
 
     trainer = TraumalIcdTrainer(model, tokenizer, output_dir, label_names,
                             train_ds=ds_encoded['train'],
-                            eval_dataset=eval_ds,
+                            eval_dataset=eval_ds_reduced,
                             logging_dir=logging_dir,
                             traumal_icd_training_args=training_args)
 
-    logger.warning(f'Training...')
-    trainer.train()
-
-    trainer.save_state()
-    save_args(output_dir, model_args, training_args, trainer.args)  
+    if not training_args.is_evaluate:
+        logger.info(f'Training...')
+        trainer.train()
     
-    logger.warning('evaluating on the validation ds...')
-    validation_metrics = trainer.evaluate(eval_ds)
-
+        trainer.save_state()
+        save_args(output_dir, model_args, training_args, trainer.args)  
+    
+    logger.info('Evaluating on the full validation dataset...')
+    validation_metrics = trainer.evaluate(eval_ds_full)
+    logger.info(validation_metrics)
     with open(os.path.join(output_dir, 'best_scores.json'), 'w') as f:
         json.dump(validation_metrics, f)
 
-    logger.warning(f'Saving...')
+    logger.info(f'Saving...')
     if os.path.exists(output_model_dir):
         shutil.rmtree(output_model_dir)
     shutil.copytree(output_dir, output_model_dir) 

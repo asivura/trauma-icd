@@ -4,7 +4,7 @@ from sklearn import metrics
 # Inspired by https://github.com/biplob1ly/TransICD/blob/f5274925bee3a53c6476c8d4cbf8859716db8e74/code/trainer.py#L96
 def precision_at_k(true_labels, pred_probs):
     # num true labels in top k predictions / k
-    ks = [1, 5, 8, 10, 15]
+    ks = [1, 5, 8, 10, 15, 20]
     sorted_pred = np.argsort(pred_probs)[:, ::-1]
     output = []
     p5_scores = None
@@ -26,7 +26,7 @@ def precision_at_k(true_labels, pred_probs):
 
 def recall_at_k(true_labels, pred_probs):
     # num true labels in top k predictions / k
-    ks = [1, 5, 8, 10, 15]
+    ks = [1, 5, 8, 10, 15, 20]
     sorted_pred = np.argsort(pred_probs)[:, ::-1]
     output = []
     r5_scores = None
@@ -95,8 +95,10 @@ def compute_metrics(targets, probs, threshold=None, prefix=''):
       f'{prefix}auc_score_macro': auc_score_macro,
       f'{prefix}auc_score_samples': auc_score_samples,
       f'{prefix}auc_score_weighted': auc_score_weighted,
+      f'{prefix}targets_shape': targets.shape,
+      f'{prefix}probs_shape': probs.shape
   }
-  ks = [1, 5, 8, 10, 15]
+  ks = [1, 5, 8, 10, 15, 20]
   
   for ks_name, ks_scores in zip(["precision", "recall"], [precision_at_ks, recall_at_ks]):
     for k, k_score in zip(ks, ks_scores):
