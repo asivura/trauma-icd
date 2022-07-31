@@ -114,7 +114,7 @@ per_device_eval_batch_size = 32
         prepare-dataset.ipynb            -- generates the dataset using patient EMRs and ICD-10 codes for training
         train-colab.ipynb                -- runs the training script on Google Colab cloud GPU
 
-    src/
+    code/
         dataset.py      -- generates input-output pairs from dataset of patient EMR with ICD-10 code labels
         train.py        -- the main script to train, evaluate, and save the model
         evaluate.py     -- evaluation scripts for obtaining AUC, F1, precision@k, and recall@k scores
