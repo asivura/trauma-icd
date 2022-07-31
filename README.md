@@ -3,8 +3,6 @@
 A BERT-based deep learning NLP algorithm to extract ICD-10 codes from unstructured tertiary survey notes of trauma patients.
 
 
-# Overview
-
 <img src="https://github.com/asivura/trauma-icd/blob/main/figures/Trauma%20ICD%20Overview.png" width="500">
 
 
