@@ -10,9 +10,10 @@ A BERT-based deep learning NLP algorithm to extract ICD-10 codes from unstructur
 
 1. Manually collect training data (ICD10 codes) from each EMR. See example here: [Google sheet](https://docs.google.com/spreadsheets/d/19PKbWvzFohSQhzaMaz9lvfDuOqMZI8ZJM7aqzZ57Xeg/edit?usp=sharing)
 2. Obtain a list of ICD-10 candidate codes from the official schema `notebooks/ohdsi-vocab.ipynb`
-3. Prepare the input-output pairs dataset using `notebooks/prepare-dataset.ipynb`
-4. Generate ICD-10 code semantic similarity scores using `notebooks/gpt3-embeddings.ipynb`
-5. Use the following command to train and evaluate model:
+3. Create a list of training, test, and validation patient_ids using `notebooks/prepare-dataset.ipynb`
+4. Prepare the input-label dataset using `notebooks/prepare-dataset.ipynb`
+5. Generate ICD-10 code semantic similarity scores using `notebooks/gpt3-embeddings.ipynb`
+6. Run the training script using a Google Colab notebook: `notebooks/train-colab.ipynb`, or using command line:
 
 ```
 train.py --model_name=$model_name \
@@ -63,6 +64,7 @@ per_device_train_batch_size = 16
 per_device_eval_batch_size = 32
 
 ```
+7. The evaluation scripts for Amazon Web Services Comprehend Medical is available in the `/notebooks` directory.
 
 # File Structure
 
@@ -127,12 +129,12 @@ per_device_eval_batch_size = 32
 |               | Top 10 codes | Top 10 codes | Top 50 codes | Top 50 codes| All 170 codes | All 170 codes|
 |---------------|:------------------------------------------------:|:-------------------------:|:------------------------------------------------:|:-------------------------:|:--------------------------------------:|:-------------------------:|
 |               |                  TraumaICD- BERT                 | Amazon Comprehend Medical |                  TraumaICD- BERT                 | Amazon Comprehend Medical |             TraumaICD- BERT            | Amazon Comprehend Medical |
-|   AUROCmicro  |                       98.6                       |            82.6           |                       96.0                       |            80.5           |                  95.7                  |            80.0           |
-|   AUROCmacro  |                       98.1                       |            79.1           |                       92.8                       |            76.2           |                  90.0                  |            70.9           |
-| AUROCweighted |                       98.1                       |            82.4           |                       93.3                       |            79.4           |                  92.2                  |            77.4           |
-|    F1micro    |                       87.0                       |            59.6           |                       72.6                       |            43.4           |                  66.4                  |            32.2           |
-|    F1macro    |                       84.1                       |            53.8           |                       66.5                       |            36.8           |                  41.8                  |            18.8           |
-|   F1weighted  |                       87.1                       |            61.4           |                       72.0                       |            47.4           |                  65.6                  |            41.0           |
+|   AUROC_micro  |                       98.6                       |            82.6           |                       96.0                       |            80.5           |                  95.7                  |            80.0           |
+|   AUROC_macro  |                       98.1                       |            79.1           |                       92.8                       |            76.2           |                  90.0                  |            70.9           |
+| AUROC_weighted |                       98.1                       |            82.4           |                       93.3                       |            79.4           |                  92.2                  |            77.4           |
+|    F1_micro    |                       87.0                       |            59.6           |                       72.6                       |            43.4           |                  66.4                  |            32.2           |
+|    F1_macro    |                       84.1                       |            53.8           |                       66.5                       |            36.8           |                  41.8                  |            18.8           |
+|   F1_weighted  |                       87.1                       |            61.4           |                       72.0                       |            47.4           |                  65.6                  |            41.0           |
 |  Precision@5  |                       36.6                       |            30.2           |                       46.6                       |            31.2           |                  47.7                  |            26.6           |
 |  Precision@10 |                       18.1                       |            18.1           |                       27.9                       |            20.8           |                  29.3                  |            19.3           |
 |  Precision@20 |                       18.1                       |            18.1           |                       15.2                       |            12.1           |                  16.3                  |            11.6           |
