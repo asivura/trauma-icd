@@ -124,7 +124,7 @@ per_device_eval_batch_size = 32
 
 # Results 
 
-|               | Top 10 most common injury ICD-10 diagnosis codes |                           | Top 50 most common injury ICD-10 diagnosis codes |                           | All 170 injury  ICD-10 diagnosis codes |                           |
+|               | Top 10 codes | Top 10 codes | Top 50 codes | Top 50 codes| All 170 codes | All 170 codes|
 |---------------|:------------------------------------------------:|:-------------------------:|:------------------------------------------------:|:-------------------------:|:--------------------------------------:|:-------------------------:|
 |               |                  TraumaICD- BERT                 | Amazon Comprehend Medical |                  TraumaICD- BERT                 | Amazon Comprehend Medical |             TraumaICD- BERT            | Amazon Comprehend Medical |
 |   AUROCmicro  |                       98.6                       |            82.6           |                       96.0                       |            80.5           |                  95.7                  |            80.0           |
