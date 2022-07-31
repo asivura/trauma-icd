@@ -1,3 +1,8 @@
+# Sensitive Files
+injury-icd-dataset/*
+models/*
+ohdsi-vocab/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

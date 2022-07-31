@@ -44,7 +44,7 @@ class ModelArguments:
     )
 
     model_dir: Optional[str] = field(
-        default='/content/gdrive/Shareddrives/cs224n-final-project/models',
+        default='/content/gdrive/Shareddrives/PROJECT_ROOT_DIR/models',
         metadata={"help": "Full path to /models directory"},
     )
 
@@ -58,7 +58,7 @@ class ModelArguments:
     )  
 
     data_dir: Optional[str] = field(
-        default='/content/gdrive/Shareddrives/cs224n-final-project/injury-icd-dataset',
+        default='/content/gdrive/Shareddrives/PROJECT_ROOT_DIR/injury-icd-dataset',
         metadata={"help": "Full path to /injury-icd-dataset directory"},
     )
 

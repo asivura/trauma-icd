@@ -48,19 +48,25 @@ def recall_at_k(true_labels, pred_probs):
             r5_scores = np.array(vals)
     return output, r5_scores
 
-
+def get_hamming_score(y_true, y_pred, normalize=False, sample_weight=None):
+    '''
+    Compute the Hamming score (a.k.a. label-based accuracy) for the multi-label case
+    https://stackoverflow.com/q/32239577/395857
+    '''
+    acc_list = []
+    for i in range(y_true.shape[0]):
+        set_true = set( np.where(y_true[i])[0] )
+        set_pred = set( np.where(y_pred[i])[0] )
+        tmp_a = None
+        if len(set_true) == 0 and len(set_pred) == 0:
+            tmp_a = 1
+        else:
+            tmp_a = len(set_true.intersection(set_pred))/\
+                    float( len(set_true.union(set_pred)) )
+        acc_list.append(tmp_a)
+    return np.mean(acc_list)
+    
 def compute_metrics(targets, probs, threshold=None, prefix=''):
-  """Given targets and predictions, compute metrics.
-
-  Args:
-      targets (np.ndarray): true labels of shape (num_examples, num_classes) 
-      probs (np.ndarray): predicted probabilities of shape (num_examples, num_classes)
-      threshold (float): threshold to obtain binary predictions from probabilities
-      prefix (str): prefix to add to metric names, e.g., "eval"
-
-  Returns:
-      metrics (dict): dictionary of metric names and values
-  """
   probs = np.array(probs)
   targets = np.array(targets)
   
@@ -76,18 +82,26 @@ def compute_metrics(targets, probs, threshold=None, prefix=''):
         cur_max = score
 
   preds = (probs > threshold).astype(float)
-  accuracy = metrics.accuracy_score(targets, preds)
+  accuracy = metrics.accuracy_score(targets, preds)  # patient-based exact match accuracy
+  hamming_score = get_hamming_score(targets, preds)  # label-based accuracy
   f1_score_micro = metrics.f1_score(targets, preds, average='micro', zero_division=0)
   f1_score_macro = metrics.f1_score(targets, preds, average='macro', zero_division=0)
   f1_score_samples = metrics.f1_score(targets, preds, average='samples', zero_division=0)
   f1_score_weighted = metrics.f1_score(targets, preds, average='weighted', zero_division=0)
 
-  #to calculate auc scores we need to exclude labels which are not present in the dataset
-  mask = targets.sum(axis=0) != 0
-  auc_score_micro = metrics.roc_auc_score(targets[:, mask], probs[:, mask], average='micro')
-  auc_score_macro = metrics.roc_auc_score(targets[:, mask], probs[:, mask], average='macro')
-  auc_score_samples = metrics.roc_auc_score(targets[:, mask], probs[:, mask], average='samples')
-  auc_score_weighted = metrics.roc_auc_score(targets[:, mask], probs[:, mask], average='weighted')
+  # to calculate auc scores we need to exclude labels which are not present in the dataset
+  # and also patients with no ground truth codes
+  mask_1 = targets.sum(axis=1) != 0
+  mask_0 = targets.sum(axis=0) != 0
+  targets_1 = targets[mask_1, :]
+  targets_0 = targets_1[:, mask_0]
+  probs_1 = probs[mask_1, :]
+  probs_0 = probs_1[:, mask_0]
+  targets, probs = targets_0, probs_0
+  auc_score_micro = metrics.roc_auc_score(targets, probs, average='micro')
+  auc_score_macro = metrics.roc_auc_score(targets, probs, average='macro')
+  auc_score_samples = metrics.roc_auc_score(targets, probs, average='samples')
+  auc_score_weighted = metrics.roc_auc_score(targets, probs, average='weighted')
 
   precision_at_ks, p5_scores = precision_at_k(targets, probs)
   recall_at_ks, r5_scores = recall_at_k(targets, probs)
@@ -97,7 +111,8 @@ def compute_metrics(targets, probs, threshold=None, prefix=''):
 
   res = {
       f'{prefix}threshold': threshold,
-      f'{prefix}accuracy': accuracy,
+      f'{prefix}patient_accuracy': accuracy,
+      f'{prefix}label_accuracy': hamming_score,
       f'{prefix}f1_score_micro': f1_score_micro,
       f'{prefix}f1_score_macro': f1_score_macro,
       f'{prefix}f1_score_samples': f1_score_samples,
@@ -106,8 +121,6 @@ def compute_metrics(targets, probs, threshold=None, prefix=''):
       f'{prefix}auc_score_macro': auc_score_macro,
       f'{prefix}auc_score_samples': auc_score_samples,
       f'{prefix}auc_score_weighted': auc_score_weighted,
-      f'{prefix}targets_shape': targets.shape,
-      f'{prefix}probs_shape': probs.shape
   }
   ks = [1, 5, 8, 10, 15, 20]
   
