@@ -5,7 +5,8 @@ A BERT-based deep learning NLP algorithm to extract ICD-10 codes from unstructur
 
 # Overview
 
-![Figure describing the overall algorithm](https://github.com/asivura/trauma-icd/blob/main/figures/Trauma%20ICD%20Overview.png | width=500)
+<img src="https://github.com/asivura/trauma-icd/blob/main/figures/Trauma%20ICD%20Overview.png" width="500">
+
 
 # Usage
 
