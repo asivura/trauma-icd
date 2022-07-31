@@ -1,7 +1,7 @@
 # Sensitive Files
-injury-icd-dataset/*
-models/*
-ohdsi-vocab/*
+# injury-icd-dataset/*
+# models/*
+# ohdsi-vocab/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

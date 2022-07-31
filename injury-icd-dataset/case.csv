@@ -1,0 +1,4 @@
+﻿patient_id,tertiary_exam,tertiary_imaging_report,tertiary_impression,total_text_len
+1,…,IMAGING REPORT TEXT,TERTIARY IMPRESSION TEXT,1458
+2,…,IMAGING REPORT TEXT,TERTIARY IMPRESSION TEXT,2018
+…,…,…,…,…
