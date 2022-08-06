@@ -146,7 +146,7 @@ Comparative performance of TraumaICDBERT and Amazon Web Service Comprehend Medic
 
 # Training Details
 
-The training task is formatted as follows: the input consists of one ICD-10 code definition (e.g., Multiple fractures of ribs) and the tertiary EMR (imaging report + tertiary impression), the output is a binary integer of 1 (positive ground truth example) or 0 (negative example). For each patient, we generate 10/50/170 such input-output pairs, where the label for positive example is 1, and negative example is 0. We fine-tune the model using a pre-trained BioLinkBERT on this classification task. 
+The training task is formatted as follows: the input consists of one ICD-10 code definition (e.g., Multiple fractures of ribs) and the tertiary EMR (imaging report + tertiary impression), the output is a probability between 1 (positive ground truth example) and 0 (negative example). For each patient, we generate 10/50/170 such input-output pairs, where the label for positive example is 1, and negative example is 0. We fine-tune the model using a pre-trained BioLinkBERT on this classification task. 
 
 During training, the model is trained on all the positive examples, as well as an equal number of negative examples. Since there are more negative examples than positive examples (a patient may have 4 injuries while there are 170 candidate codes), we randomly sample a subset of the negative examples at each epoch. 
 
