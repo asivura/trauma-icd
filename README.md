@@ -10,13 +10,13 @@ A BERT-based deep learning NLP algorithm to extract ICD-10 codes from unstructur
 
 1. Manually collect training data (ICD10 codes) from each EMR. See example here: [Google sheet](https://docs.google.com/spreadsheets/d/19PKbWvzFohSQhzaMaz9lvfDuOqMZI8ZJM7aqzZ57Xeg/edit?usp=sharing)
 
+(Steps 2-6 are included in the Demo Notebook `main-demo.ipynb`, so there is no need to run the notebooks below individually if you chose to use `main-demo.ipynb`.)
+
 2. Obtain a list of ICD-10 candidate codes from the official schema `notebooks/ohdsi-vocab.ipynb`
 3. Create a list of training, test, and validation patient_ids using `notebooks/prepare-dataset.ipynb`
 4. Prepare the input-label dataset using `notebooks/prepare-dataset.ipynb`
 5. Generate ICD-10 code semantic similarity scores using `notebooks/gpt3-embeddings.ipynb`
 6. Run the training script using a Google Colab notebook: `notebooks/train-colab.ipynb`, or using command line:
-
-Steps 2-6 are included in the Demo Notebook `main-demo.ipynb`.
 
 7. The evaluation scripts for Amazon Web Services Comprehend Medical is available in the `/notebooks` directory.
 
