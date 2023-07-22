@@ -1,0 +1,573 @@
+,Unnamed: 0,concept_id,concept_name,domain_id,vocabulary_id,concept_class_id,standard_concept,concept_code,valid_start_date,valid_end_date,invalid_reason,label_name,label
+455,533517,1572367,Open wound of lip and oral cavity,Condition,ICD10CM,4-char nonbill code,,S01.5,20120101,20991231,,Open wound of lip and oral cavity,S01.5
+558,533620,1572409,Avulsion of eye,Condition,ICD10CM,4-char nonbill code,,S05.7,20120101,20991231,,Avulsion of eye,S05.7
+638,533700,1572428,Epidural hemorrhage,Condition,ICD10CM,4-char nonbill code,,S06.4,20120101,20991231,,Epidural hemorrhage,S06.4
+669,533731,1572463,Open wound of unspecified part of neck,Condition,ICD10CM,4-char nonbill code,,S11.9,20120101,20991231,,Open wound of unspecified part of neck,S11.9
+674,533736,1572487,Fracture of fifth cervical vertebra,Condition,ICD10CM,4-char nonbill code,,S12.4,20120101,20991231,,Fracture of fifth cervical vertebra,S12.4
+675,533737,1572492,Fracture of sixth cervical vertebra,Condition,ICD10CM,4-char nonbill code,,S12.5,20120101,20991231,,Fracture of sixth cervical vertebra,S12.5
+679,533741,10849,Sprain of ligaments of cervical spine,Condition,ICD10CM,4-char nonbill code,,S13.4,20140101,20991231,,Sprain of ligaments of cervical spine,S13.4
+687,533749,1572557,Contusion of thorax,Condition,ICD10CM,4-char nonbill code,,S20.2,20120101,20991231,,Contusion of thorax,S20.2
+690,533752,1572599,Open wound of front wall of thorax with penetration into thoracic cavity,Condition,ICD10CM,4-char nonbill code,,S21.3,20120101,20991231,,Open wound of front wall of thorax with penetration into thoracic cavity,S21.3
+692,533754,1572613,Open wound of unspecified part of thorax,Condition,ICD10CM,4-char nonbill code,,S21.9,20120101,20991231,,Open wound of unspecified part of thorax,S21.9
+734,533796,1572760,Fracture of sacrum,Condition,ICD10CM,4-char nonbill code,,S32.1,20120101,20991231,,Fracture of sacrum,S32.1
+750,533812,45592794,Fracture of ischium,Condition,ICD10CM,4-char nonbill code,,S32.6,20061230,20991231,,Fracture of ischium,S32.6
+752,533814,11799,Dislocation of sacroiliac and sacrococcygeal joint,Condition,ICD10CM,4-char nonbill code,,S33.2,20140101,20991231,,Dislocation of sacroiliac and sacrococcygeal joint,S33.2
+755,533817,1572833,Injury of stomach,Condition,ICD10CM,4-char nonbill code,,S36.3,20120101,20991231,,Injury of stomach,S36.3
+772,533834,1572933,Fracture of upper end of humerus,Condition,ICD10CM,4-char nonbill code,,S42.2,20120101,20991231,,Fracture of upper end of humerus,S42.2
+776,533838,1572952,Fracture of lower end of humerus,Condition,ICD10CM,4-char nonbill code,,S42.4,20120101,20991231,,Fracture of lower end of humerus,S42.4
+781,533843,1572985,Sprain of shoulder joint,Condition,ICD10CM,4-char nonbill code,,S43.4,20120101,20991231,,Sprain of shoulder joint,S43.4
+784,533846,1573069,"Traumatic amputation of shoulder and upper arm, level unspecified",Condition,ICD10CM,4-char nonbill code,,S48.9,20120101,20991231,,"Traumatic amputation of shoulder and upper arm, level unspecified",S48.9
+785,533847,1573080,Physeal fracture of lower end of humerus,Condition,ICD10CM,4-char nonbill code,,S49.1,20120101,20991231,,Physeal fracture of lower end of humerus,S49.1
+813,533875,1573250,"Injury of other extensor muscle, fascia and tendon at forearm level",Condition,ICD10CM,4-char nonbill code,,S56.5,20120101,20991231,,"Injury of other extensor muscle, fascia and tendon at forearm level",S56.5
+815,533877,1573286,Physeal fracture of upper end of radius,Condition,ICD10CM,4-char nonbill code,,S59.1,20120101,20991231,,Physeal fracture of upper end of radius,S59.1
+884,533946,1573455,Subluxation and dislocation of other finger(s),Condition,ICD10CM,4-char nonbill code,,S63.2,20120101,20991231,,Subluxation and dislocation of other finger(s),S63.2
+889,533951,1573609,Contusion of thigh,Condition,ICD10CM,4-char nonbill code,,S70.1,20120101,20991231,,Contusion of thigh,S70.1
+911,533973,1573666,Fracture of lower end of femur,Condition,ICD10CM,4-char nonbill code,,S72.4,20120101,20991231,,Fracture of lower end of femur,S72.4
+920,533982,1573693,Injury of femoral nerve at hip and thigh level,Condition,ICD10CM,4-char nonbill code,,S74.1,20120101,20991231,,Injury of femoral nerve at hip and thigh level,S74.1
+921,533983,1573699,Injury of femoral artery,Condition,ICD10CM,4-char nonbill code,,S75.0,20120101,20991231,,Injury of femoral artery,S75.0
+923,533985,1573718,Injury of unspecified blood vessel at hip and thigh level,Condition,ICD10CM,4-char nonbill code,,S75.9,20120101,20991231,,Injury of unspecified blood vessel at hip and thigh level,S75.9
+927,533989,1573768,Physeal fracture of upper end of femur,Condition,ICD10CM,4-char nonbill code,,S79.0,20120101,20991231,,Physeal fracture of upper end of femur,S79.0
+963,534025,1573962,Injury of other muscles and tendons at lower leg level,Condition,ICD10CM,4-char nonbill code,,S86.8,20120101,20991231,,Injury of other muscles and tendons at lower leg level,S86.8
+965,534027,1573986,Physeal fracture of upper end of tibia,Condition,ICD10CM,4-char nonbill code,,S89.0,20120101,20991231,,Physeal fracture of upper end of tibia,S89.0
+967,534029,1574000,Physeal fracture of upper end of fibula,Condition,ICD10CM,4-char nonbill code,,S89.2,20120101,20991231,,Physeal fracture of upper end of fibula,S89.2
+968,534030,1574035,Other superficial injuries of foot,Condition,ICD10CM,4-char nonbill code,,S90.8,20120101,20991231,,Other superficial injuries of foot,S90.8
+982,534044,1574138,Sprain of foot,Condition,ICD10CM,4-char nonbill code,,S93.6,20120101,20991231,,Sprain of foot,S93.6
+986,534048,1574204,Crushing injury of foot,Condition,ICD10CM,4-char nonbill code,,S97.8,20120101,20991231,,Crushing injury of foot,S97.8
+2133,535195,10359,Fracture of vault of skull,Condition,ICD10CM,4-char nonbill code,,S02.0,20140101,20991231,,Fracture of vault of skull,S02.0
+2135,535197,10691,Contusion of throat,Condition,ICD10CM,4-char nonbill code,,S10.0,20140101,20991231,,Contusion of throat,S10.0
+2136,535198,1572639,Sprain of ribs and sternum,Condition,ICD10CM,4-char nonbill code,,S23.4,20120101,20991231,,Sprain of ribs and sternum,S23.4
+2140,535202,1573425,Fracture of thumb,Condition,ICD10CM,4-char nonbill code,,S62.5,20120101,20991231,,Fracture of thumb,S62.5
+2145,535207,1573518,Injury of deep palmar arch,Condition,ICD10CM,4-char nonbill code,,S65.3,20120101,20991231,,Injury of deep palmar arch,S65.3
+2287,535349,766440,Traumatic brain compression and herniation,Condition,ICD10CM,4-char nonbill code,,S06.A,20211001,20991231,,Traumatic brain compression and herniation,S06.A
+32187,565249,1572313,Superficial injury of scalp,Condition,ICD10CM,4-char nonbill code,,S00.0,20120101,20991231,,Superficial injury of scalp,S00.0
+32219,565281,1572314,Contusion of eyelid and periocular area,Condition,ICD10CM,4-char nonbill code,,S00.1,20120101,20991231,,Contusion of eyelid and periocular area,S00.1
+32232,565294,1572315,Other and unspecified superficial injuries of eyelid and periocular area,Condition,ICD10CM,4-char nonbill code,,S00.2,20120101,20991231,,Other and unspecified superficial injuries of eyelid and periocular area,S00.2
+32325,565387,1572323,Superficial injury of nose,Condition,ICD10CM,4-char nonbill code,,S00.3,20120101,20991231,,Superficial injury of nose,S00.3
+32356,565418,1572324,Superficial injury of ear,Condition,ICD10CM,4-char nonbill code,,S00.4,20120101,20991231,,Superficial injury of ear,S00.4
+32461,565523,1572332,Superficial injury of lip and oral cavity,Condition,ICD10CM,4-char nonbill code,,S00.5,20120101,20991231,,Superficial injury of lip and oral cavity,S00.5
+32533,565595,1572341,Superficial injury of other parts of head,Condition,ICD10CM,4-char nonbill code,,S00.8,20120101,20991231,,Superficial injury of other parts of head,S00.8
+32567,565629,1572342,Superficial injury of unspecified part of head,Condition,ICD10CM,4-char nonbill code,,S00.9,20120101,20991231,,Superficial injury of unspecified part of head,S00.9
+32600,565662,1572344,Open wound of scalp,Condition,ICD10CM,4-char nonbill code,,S01.0,20120101,20991231,,Open wound of scalp,S01.0
+32624,565686,1572345,Open wound of eyelid and periocular area,Condition,ICD10CM,4-char nonbill code,,S01.1,20120101,20991231,,Open wound of eyelid and periocular area,S01.1
+32704,565766,1572352,Open wound of nose,Condition,ICD10CM,4-char nonbill code,,S01.2,20120101,20991231,,Open wound of nose,S01.2
+32728,565790,1572353,Open wound of ear,Condition,ICD10CM,4-char nonbill code,,S01.3,20120101,20991231,,Open wound of ear,S01.3
+32807,565869,1572360,Open wound of cheek and temporomandibular area,Condition,ICD10CM,4-char nonbill code,,S01.4,20120101,20991231,,Open wound of cheek and temporomandibular area,S01.4
+32940,566002,1572374,Open wound of other parts of head,Condition,ICD10CM,4-char nonbill code,,S01.8,20120101,20991231,,Open wound of other parts of head,S01.8
+32965,566027,1572375,Open wound of unspecified part of head,Condition,ICD10CM,4-char nonbill code,,S01.9,20120101,20991231,,Open wound of unspecified part of head,S01.9
+32997,566059,1572377,Fracture of base of skull,Condition,ICD10CM,4-char nonbill code,,S02.1,20120101,20991231,,Fracture of base of skull,S02.1
+33147,566209,10368,Fracture of nasal bones,Condition,ICD10CM,4-char nonbill code,,S02.2,20140101,20991231,,Fracture of nasal bones,S02.2
+33155,566217,10369,Fracture of orbital floor,Condition,ICD10CM,4-char nonbill code,,S02.3,20140101,20991231,,Fracture of orbital floor,S02.3
+33177,566239,1572379,"Fracture of malar, maxillary and zygoma bones",Condition,ICD10CM,4-char nonbill code,,S02.4,20120101,20991231,,"Fracture of malar, maxillary and zygoma bones",S02.4
+33272,566334,10377,Fracture of tooth (traumatic),Condition,ICD10CM,4-char nonbill code,,S02.5,20140101,20991231,,Fracture of tooth (traumatic),S02.5
+33279,566341,1572382,Fracture of mandible,Condition,ICD10CM,4-char nonbill code,,S02.6,20120101,20991231,,Fracture of mandible,S02.6
+33296,566358,1572432,Other specified intracranial injuries,Condition,ICD10CM,4-char nonbill code,,S06.8,20120101,20991231,,Other specified intracranial injuries,S06.8
+33453,566515,10388,Fractures of other specified skull and facial bones,Condition,ICD10CM,4-char nonbill code,,S02.8,20140101,20991231,,Fractures of other specified skull and facial bones,S02.8
+33526,566588,1572384,Fracture of unspecified skull and facial bones,Condition,ICD10CM,4-char nonbill code,,S02.9,20120101,20991231,,Fracture of unspecified skull and facial bones,S02.9
+33542,566604,10391,Dislocation of jaw,Condition,ICD10CM,4-char nonbill code,,S03.0,20140101,20991231,,Dislocation of jaw,S03.0
+33557,566619,10392,Dislocation of septal cartilage of nose,Condition,ICD10CM,4-char nonbill code,,S03.1,20140101,20991231,,Dislocation of septal cartilage of nose,S03.1
+33561,566623,10393,Dislocation of tooth,Condition,ICD10CM,4-char nonbill code,,S03.2,20140101,20991231,,Dislocation of tooth,S03.2
+33565,566627,10394,Sprain of jaw,Condition,ICD10CM,4-char nonbill code,,S03.4,20140101,20991231,,Sprain of jaw,S03.4
+33579,566641,10395,Sprain of joints and ligaments of other parts of head,Condition,ICD10CM,4-char nonbill code,,S03.8,20140101,20991231,,Sprain of joints and ligaments of other parts of head,S03.8
+33583,566645,10396,Sprain of joints and ligaments of unspecified parts of head,Condition,ICD10CM,4-char nonbill code,,S03.9,20140101,20991231,,Sprain of joints and ligaments of unspecified parts of head,S03.9
+33588,566650,1572387,Injury of optic nerve and pathways,Condition,ICD10CM,4-char nonbill code,,S04.0,20120101,20991231,,Injury of optic nerve and pathways,S04.0
+33630,566692,1572452,Unspecified injury of face and head,Condition,ICD10CM,4-char nonbill code,,S09.9,20120101,20991231,,Unspecified injury of face and head,S09.9
+33633,566695,1572391,Injury of oculomotor nerve,Condition,ICD10CM,4-char nonbill code,,S04.1,20120101,20991231,,Injury of oculomotor nerve,S04.1
+33646,566708,1572392,Injury of trochlear nerve,Condition,ICD10CM,4-char nonbill code,,S04.2,20120101,20991231,,Injury of trochlear nerve,S04.2
+33659,566721,1572393,Injury of trigeminal nerve,Condition,ICD10CM,4-char nonbill code,,S04.3,20120101,20991231,,Injury of trigeminal nerve,S04.3
+33672,566734,1572394,Injury of abducent nerve,Condition,ICD10CM,4-char nonbill code,,S04.4,20120101,20991231,,Injury of abducent nerve,S04.4
+33685,566747,1572395,Injury of facial nerve,Condition,ICD10CM,4-char nonbill code,,S04.5,20120101,20991231,,Injury of facial nerve,S04.5
+33698,566760,1572396,Injury of acoustic nerve,Condition,ICD10CM,4-char nonbill code,,S04.6,20120101,20991231,,Injury of acoustic nerve,S04.6
+33711,566773,1572397,Injury of accessory nerve,Condition,ICD10CM,4-char nonbill code,,S04.7,20120101,20991231,,Injury of accessory nerve,S04.7
+33724,566786,1572398,Injury of other cranial nerves,Condition,ICD10CM,4-char nonbill code,,S04.8,20120101,20991231,,Injury of other cranial nerves,S04.8
+33752,566814,10433,Injury of unspecified cranial nerve,Condition,ICD10CM,4-char nonbill code,,S04.9,20140101,20991231,,Injury of unspecified cranial nerve,S04.9
+33757,566819,1572402,Injury of conjunctiva and corneal abrasion without foreign body,Condition,ICD10CM,4-char nonbill code,,S05.0,20120101,20991231,,Injury of conjunctiva and corneal abrasion without foreign body,S05.0
+33771,566833,1572403,Contusion of eyeball and orbital tissues,Condition,ICD10CM,4-char nonbill code,,S05.1,20120101,20991231,,Contusion of eyeball and orbital tissues,S05.1
+33784,566846,1572404,Ocular laceration and rupture with prolapse or loss of intraocular tissue,Condition,ICD10CM,4-char nonbill code,,S05.2,20120101,20991231,,Ocular laceration and rupture with prolapse or loss of intraocular tissue,S05.2
+33797,566859,1572405,Ocular laceration without prolapse or loss of intraocular tissue,Condition,ICD10CM,4-char nonbill code,,S05.3,20120101,20991231,,Ocular laceration without prolapse or loss of intraocular tissue,S05.3
+33810,566872,1572406,Penetrating wound of orbit with or without foreign body,Condition,ICD10CM,4-char nonbill code,,S05.4,20120101,20991231,,Penetrating wound of orbit with or without foreign body,S05.4
+33823,566885,1572407,Penetrating wound with foreign body of eyeball,Condition,ICD10CM,4-char nonbill code,,S05.5,20120101,20991231,,Penetrating wound with foreign body of eyeball,S05.5
+33836,566898,1572408,Penetrating wound without foreign body of eyeball,Condition,ICD10CM,4-char nonbill code,,S05.6,20120101,20991231,,Penetrating wound without foreign body of eyeball,S05.6
+33861,566923,1572410,Other injuries of eye and orbit,Condition,ICD10CM,4-char nonbill code,,S05.8,20120101,20991231,,Other injuries of eye and orbit,S05.8
+33865,566927,10656,Crushing injury of other parts of head,Condition,ICD10CM,4-char nonbill code,,S07.8,20140101,20991231,,Crushing injury of other parts of head,S07.8
+33876,566938,1572412,Unspecified injury of eye and orbit,Condition,ICD10CM,4-char nonbill code,,S05.9,20120101,20991231,,Unspecified injury of eye and orbit,S05.9
+33889,566951,1572414,Concussion,Condition,ICD10CM,4-char nonbill code,,S06.0,20120101,20991231,,Concussion,S06.0
+33902,566964,1572415,Traumatic cerebral edema,Condition,ICD10CM,4-char nonbill code,,S06.1,20120101,20991231,,Traumatic cerebral edema,S06.1
+33940,567002,1572416,Diffuse traumatic brain injury,Condition,ICD10CM,4-char nonbill code,,S06.2,20120101,20991231,,Diffuse traumatic brain injury,S06.2
+33978,567040,1572418,Focal traumatic brain injury,Condition,ICD10CM,4-char nonbill code,,S06.3,20120101,20991231,,Focal traumatic brain injury,S06.3
+34351,567413,1572429,Traumatic subdural hemorrhage,Condition,ICD10CM,4-char nonbill code,,S06.5,20120101,20991231,,Traumatic subdural hemorrhage,S06.5
+34388,567450,1572430,Traumatic subarachnoid hemorrhage,Condition,ICD10CM,4-char nonbill code,,S06.6,20120101,20991231,,Traumatic subarachnoid hemorrhage,S06.6
+34471,567533,10655,Crushing injury of skull,Condition,ICD10CM,4-char nonbill code,,S07.1,20140101,20991231,,Crushing injury of skull,S07.1
+34537,567599,1572436,Unspecified intracranial injury,Condition,ICD10CM,4-char nonbill code,,S06.9,20120101,20991231,,Unspecified intracranial injury,S06.9
+34577,567639,10654,Crushing injury of face,Condition,ICD10CM,4-char nonbill code,,S07.0,20140101,20991231,,Crushing injury of face,S07.0
+34584,567646,10657,"Crushing injury of head, part unspecified",Condition,ICD10CM,4-char nonbill code,,S07.9,20140101,20991231,,"Crushing injury of head, part unspecified",S07.9
+34589,567651,10658,Avulsion of scalp,Condition,ICD10CM,4-char nonbill code,,S08.0,20140101,20991231,,Avulsion of scalp,S08.0
+34593,567655,1572440,Traumatic amputation of ear,Condition,ICD10CM,4-char nonbill code,,S08.1,20120101,20991231,,Traumatic amputation of ear,S08.1
+34615,567677,1572443,Traumatic amputation of other parts of head,Condition,ICD10CM,4-char nonbill code,,S08.8,20120101,20991231,,Traumatic amputation of other parts of head,S08.8
+34629,567691,10668,"Injury of blood vessels of head, not elsewhere classified",Condition,ICD10CM,4-char nonbill code,,S09.0,20140101,20991231,,"Injury of blood vessels of head, not elsewhere classified",S09.0
+34633,567695,1572446,Injury of muscle and tendon of head,Condition,ICD10CM,4-char nonbill code,,S09.1,20120101,20991231,,Injury of muscle and tendon of head,S09.1
+34650,567712,1572447,Traumatic rupture of ear drum,Condition,ICD10CM,4-char nonbill code,,S09.2,20120101,20991231,,Traumatic rupture of ear drum,S09.2
+34663,567725,1572448,Other specified and unspecified injury of middle and inner ear,Condition,ICD10CM,4-char nonbill code,,S09.3,20120101,20991231,,Other specified and unspecified injury of middle and inner ear,S09.3
+34707,567769,10686,Other specified injuries of head,Condition,ICD10CM,4-char nonbill code,,S09.8,20140101,20991231,,Other specified injuries of head,S09.8
+34730,567792,1572454,Other and unspecified superficial injuries of throat,Condition,ICD10CM,4-char nonbill code,,S10.1,20120101,20991231,,Other and unspecified superficial injuries of throat,S10.1
+34759,567821,1572455,Superficial injury of other specified parts of neck,Condition,ICD10CM,4-char nonbill code,,S10.8,20120101,20991231,,Superficial injury of other specified parts of neck,S10.8
+34792,567854,1572456,Superficial injury of unspecified part of neck,Condition,ICD10CM,4-char nonbill code,,S10.9,20120101,20991231,,Superficial injury of unspecified part of neck,S10.9
+34825,567887,1572458,Open wound of larynx and trachea,Condition,ICD10CM,4-char nonbill code,,S11.0,20120101,20991231,,Open wound of larynx and trachea,S11.0
+34901,567963,1572460,Open wound of thyroid gland,Condition,ICD10CM,4-char nonbill code,,S11.1,20120101,20991231,,Open wound of thyroid gland,S11.1
+34927,567989,1572461,Open wound of pharynx and cervical esophagus,Condition,ICD10CM,4-char nonbill code,,S11.2,20120101,20991231,,Open wound of pharynx and cervical esophagus,S11.2
+34952,568014,1572462,Open wound of other specified parts of neck,Condition,ICD10CM,4-char nonbill code,,S11.8,20120101,20991231,,Open wound of other specified parts of neck,S11.8
+35005,568067,1572465,Fracture of first cervical vertebra,Condition,ICD10CM,4-char nonbill code,,S12.0,20120101,20991231,,Fracture of first cervical vertebra,S12.0
+35081,568143,1572470,Fracture of second cervical vertebra,Condition,ICD10CM,4-char nonbill code,,S12.1,20120101,20991231,,Fracture of second cervical vertebra,S12.1
+35186,568248,1572477,Fracture of third cervical vertebra,Condition,ICD10CM,4-char nonbill code,,S12.2,20120101,20991231,,Fracture of third cervical vertebra,S12.2
+35252,568314,1572482,Fracture of fourth cervical vertebra,Condition,ICD10CM,4-char nonbill code,,S12.3,20120101,20991231,,Fracture of fourth cervical vertebra,S12.3
+35299,568361,11276,Injury of nerve root of thoracic spine,Condition,ICD10CM,4-char nonbill code,,S24.2,20140101,20991231,,Injury of nerve root of thoracic spine,S24.2
+35319,568381,1572615,Fracture of thoracic vertebra,Condition,ICD10CM,4-char nonbill code,,S22.0,20120101,20991231,,Fracture of thoracic vertebra,S22.0
+35383,568445,45539656,Contusion of anus,Condition,ICD10CM,4-char nonbill code,,S30.3,20061230,20991231,,Contusion of anus,S30.3
+35456,568518,1572497,Fracture of seventh cervical vertebra,Condition,ICD10CM,4-char nonbill code,,S12.6,20120101,20991231,,Fracture of seventh cervical vertebra,S12.6
+35524,568586,10826,Fracture of other parts of neck,Condition,ICD10CM,4-char nonbill code,,S12.8,20140101,20991231,,Fracture of other parts of neck,S12.8
+35528,568590,10827,"Fracture of neck, unspecified",Condition,ICD10CM,4-char nonbill code,,S12.9,20140101,20991231,,"Fracture of neck, unspecified",S12.9
+35532,568594,10828,Traumatic rupture of cervical intervertebral disc,Condition,ICD10CM,4-char nonbill code,,S13.0,20140101,20991231,,Traumatic rupture of cervical intervertebral disc,S13.0
+35536,568598,1572503,Subluxation and dislocation of cervical vertebrae,Condition,ICD10CM,4-char nonbill code,,S13.1,20120101,20991231,,Subluxation and dislocation of cervical vertebrae,S13.1
+35618,568680,1572513,Dislocation of other and unspecified parts of neck,Condition,ICD10CM,4-char nonbill code,,S13.2,20120101,20991231,,Dislocation of other and unspecified parts of neck,S13.2
+35630,568692,10850,Sprain of thyroid region,Condition,ICD10CM,4-char nonbill code,,S13.5,20140101,20991231,,Sprain of thyroid region,S13.5
+35634,568696,10851,Sprain of joints and ligaments of other parts of neck,Condition,ICD10CM,4-char nonbill code,,S13.8,20140101,20991231,,Sprain of joints and ligaments of other parts of neck,S13.8
+35638,568700,10852,Sprain of joints and ligaments of unspecified parts of neck,Condition,ICD10CM,4-char nonbill code,,S13.9,20140101,20991231,,Sprain of joints and ligaments of unspecified parts of neck,S13.9
+35643,568705,10853,Concussion and edema of cervical spinal cord,Condition,ICD10CM,4-char nonbill code,,S14.0,20140101,20991231,,Concussion and edema of cervical spinal cord,S14.0
+35647,568709,1572515,Other and unspecified injuries of cervical spinal cord,Condition,ICD10CM,4-char nonbill code,,S14.1,20120101,20991231,,Other and unspecified injuries of cervical spinal cord,S14.1
+35870,568932,10908,Injury of nerve root of cervical spine,Condition,ICD10CM,4-char nonbill code,,S14.2,20140101,20991231,,Injury of nerve root of cervical spine,S14.2
+35874,568936,10909,Injury of brachial plexus,Condition,ICD10CM,4-char nonbill code,,S14.3,20140101,20991231,,Injury of brachial plexus,S14.3
+35878,568940,10910,Injury of peripheral nerves of neck,Condition,ICD10CM,4-char nonbill code,,S14.4,20140101,20991231,,Injury of peripheral nerves of neck,S14.4
+35882,568944,10911,Injury of cervical sympathetic nerves,Condition,ICD10CM,4-char nonbill code,,S14.5,20140101,20991231,,Injury of cervical sympathetic nerves,S14.5
+35886,568948,10912,Injury of other specified nerves of neck,Condition,ICD10CM,4-char nonbill code,,S14.8,20140101,20991231,,Injury of other specified nerves of neck,S14.8
+35890,568952,10913,Injury of unspecified nerves of neck,Condition,ICD10CM,4-char nonbill code,,S14.9,20140101,20991231,,Injury of unspecified nerves of neck,S14.9
+35895,568957,1572523,Injury of carotid artery of neck,Condition,ICD10CM,4-char nonbill code,,S15.0,20120101,20991231,,Injury of carotid artery of neck,S15.0
+35936,568998,11249,Sprain of unspecified parts of thorax,Condition,ICD10CM,4-char nonbill code,,S23.9,20140101,20991231,,Sprain of unspecified parts of thorax,S23.9
+35948,569010,1572528,Injury of vertebral artery,Condition,ICD10CM,4-char nonbill code,,S15.1,20120101,20991231,,Injury of vertebral artery,S15.1
+36000,569062,1572533,Injury of external jugular vein,Condition,ICD10CM,4-char nonbill code,,S15.2,20120101,20991231,,Injury of external jugular vein,S15.2
+36052,569114,1572538,Injury of internal jugular vein,Condition,ICD10CM,4-char nonbill code,,S15.3,20120101,20991231,,Injury of internal jugular vein,S15.3
+36062,569124,1572731,Open wound of scrotum and testes,Condition,ICD10CM,4-char nonbill code,,S31.3,20120101,20991231,,Open wound of scrotum and testes,S31.3
+36106,569168,10962,Injury of other specified blood vessels at neck level,Condition,ICD10CM,4-char nonbill code,,S15.8,20140101,20991231,,Injury of other specified blood vessels at neck level,S15.8
+36110,569172,10963,Injury of unspecified blood vessel at neck level,Condition,ICD10CM,4-char nonbill code,,S15.9,20140101,20991231,,Injury of unspecified blood vessel at neck level,S15.9
+36115,569177,10964,"Strain of muscle, fascia and tendon at neck level",Condition,ICD10CM,4-char nonbill code,,S16.1,20140101,20991231,,"Strain of muscle, fascia and tendon at neck level",S16.1
+36119,569181,10965,"Laceration of muscle, fascia and tendon at neck level",Condition,ICD10CM,4-char nonbill code,,S16.2,20140101,20991231,,"Laceration of muscle, fascia and tendon at neck level",S16.2
+36123,569185,10966,"Other specified injury of muscle, fascia and tendon at neck level",Condition,ICD10CM,4-char nonbill code,,S16.8,20140101,20991231,,"Other specified injury of muscle, fascia and tendon at neck level",S16.8
+36127,569189,10967,"Unspecified injury of muscle, fascia and tendon at neck level",Condition,ICD10CM,4-char nonbill code,,S16.9,20140101,20991231,,"Unspecified injury of muscle, fascia and tendon at neck level",S16.9
+36132,569194,10968,Crushing injury of larynx and trachea,Condition,ICD10CM,4-char nonbill code,,S17.0,20140101,20991231,,Crushing injury of larynx and trachea,S17.0
+36136,569198,10969,Crushing injury of other specified parts of neck,Condition,ICD10CM,4-char nonbill code,,S17.8,20140101,20991231,,Crushing injury of other specified parts of neck,S17.8
+36140,569202,10970,"Crushing injury of neck, part unspecified",Condition,ICD10CM,4-char nonbill code,,S17.9,20140101,20991231,,"Crushing injury of neck, part unspecified",S17.9
+36145,569207,1572546,Other specified injuries of neck,Condition,ICD10CM,4-char nonbill code,,S19.8,20120101,20991231,,Other specified injuries of neck,S19.8
+36174,569236,10978,Unspecified injury of neck,Condition,ICD10CM,4-char nonbill code,,S19.9,20140101,20991231,,Unspecified injury of neck,S19.9
+36179,569241,1572548,Contusion of breast,Condition,ICD10CM,4-char nonbill code,,S20.0,20120101,20991231,,Contusion of breast,S20.0
+36192,569254,1572549,Other and unspecified superficial injuries of breast,Condition,ICD10CM,4-char nonbill code,,S20.1,20120101,20991231,,Other and unspecified superficial injuries of breast,S20.1
+36247,569309,1572705,Contusion of external genital organs,Condition,ICD10CM,4-char nonbill code,,S30.2,20120101,20991231,,Contusion of external genital organs,S30.2
+36331,569393,1572560,Other and unspecified superficial injuries of front wall of thorax,Condition,ICD10CM,4-char nonbill code,,S20.3,20120101,20991231,,Other and unspecified superficial injuries of front wall of thorax,S20.3
+36450,569512,1572578,Open wound of breast,Condition,ICD10CM,4-char nonbill code,,S21.0,20120101,20991231,,Open wound of breast,S21.0
+36479,569541,1572568,Other and unspecified superficial injuries of back wall of thorax,Condition,ICD10CM,4-char nonbill code,,S20.4,20120101,20991231,,Other and unspecified superficial injuries of back wall of thorax,S20.4
+36570,569632,1572576,Superficial injury of unspecified parts of thorax,Condition,ICD10CM,4-char nonbill code,,S20.9,20120101,20991231,,Superficial injury of unspecified parts of thorax,S20.9
+36678,569740,1572585,Open wound of front wall of thorax without penetration into thoracic cavity,Condition,ICD10CM,4-char nonbill code,,S21.1,20120101,20991231,,Open wound of front wall of thorax without penetration into thoracic cavity,S21.1
+36759,569821,1572592,Open wound of back wall of thorax without penetration into thoracic cavity,Condition,ICD10CM,4-char nonbill code,,S21.2,20120101,20991231,,Open wound of back wall of thorax without penetration into thoracic cavity,S21.2
+36918,569980,1572606,Open wound of back wall of thorax with penetration into thoracic cavity,Condition,ICD10CM,4-char nonbill code,,S21.4,20120101,20991231,,Open wound of back wall of thorax with penetration into thoracic cavity,S21.4
+36991,570053,1572859,Injury of ovary,Condition,ICD10CM,4-char nonbill code,,S37.4,20120101,20991231,,Injury of ovary,S37.4
+37110,570172,11213,"Fracture of bony thorax, part unspecified",Condition,ICD10CM,4-char nonbill code,,S22.9,20140101,20991231,,"Fracture of bony thorax, part unspecified",S22.9
+37345,570407,1572625,Fracture of sternum,Condition,ICD10CM,4-char nonbill code,,S22.2,20120101,20991231,,Fracture of sternum,S22.2
+37382,570444,1572626,Fracture of one rib,Condition,ICD10CM,4-char nonbill code,,S22.3,20120101,20991231,,Fracture of one rib,S22.3
+37404,570466,1572627,Multiple fractures of ribs,Condition,ICD10CM,4-char nonbill code,,S22.4,20120101,20991231,,Multiple fractures of ribs,S22.4
+37433,570495,11212,Flail chest,Condition,ICD10CM,4-char nonbill code,,S22.5,20140101,20991231,,Flail chest,S22.5
+37446,570508,11214,Traumatic rupture of thoracic intervertebral disc,Condition,ICD10CM,4-char nonbill code,,S23.0,20140101,20991231,,Traumatic rupture of thoracic intervertebral disc,S23.0
+37450,570512,1572629,Subluxation and dislocation of thoracic vertebra,Condition,ICD10CM,4-char nonbill code,,S23.1,20120101,20991231,,Subluxation and dislocation of thoracic vertebra,S23.1
+37562,570624,1572638,Dislocation of other and unspecified parts of thorax,Condition,ICD10CM,4-char nonbill code,,S23.2,20120101,20991231,,Dislocation of other and unspecified parts of thorax,S23.2
+37572,570634,11243,Sprain of ligaments of thoracic spine,Condition,ICD10CM,4-char nonbill code,,S23.3,20140101,20991231,,Sprain of ligaments of thoracic spine,S23.3
+37596,570658,11248,Sprain of other specified parts of thorax,Condition,ICD10CM,4-char nonbill code,,S23.8,20140101,20991231,,Sprain of other specified parts of thorax,S23.8
+37604,570666,11250,Concussion and edema of thoracic spinal cord,Condition,ICD10CM,4-char nonbill code,,S24.0,20140101,20991231,,Concussion and edema of thoracic spinal cord,S24.0
+37608,570670,1572641,Other and unspecified injuries of thoracic spinal cord,Condition,ICD10CM,4-char nonbill code,,S24.1,20120101,20991231,,Other and unspecified injuries of thoracic spinal cord,S24.1
+37618,570680,1572914,Open wound of upper arm,Condition,ICD10CM,4-char nonbill code,,S41.1,20120101,20991231,,Open wound of upper arm,S41.1
+37717,570779,11277,Injury of peripheral nerves of thorax,Condition,ICD10CM,4-char nonbill code,,S24.3,20140101,20991231,,Injury of peripheral nerves of thorax,S24.3
+37721,570783,11278,Injury of thoracic sympathetic nervous system,Condition,ICD10CM,4-char nonbill code,,S24.4,20140101,20991231,,Injury of thoracic sympathetic nervous system,S24.4
+37725,570787,11279,Injury of other specified nerves of thorax,Condition,ICD10CM,4-char nonbill code,,S24.8,20140101,20991231,,Injury of other specified nerves of thorax,S24.8
+37729,570791,11280,Injury of unspecified nerve of thorax,Condition,ICD10CM,4-char nonbill code,,S24.9,20140101,20991231,,Injury of unspecified nerve of thorax,S24.9
+37734,570796,1572648,Injury of thoracic aorta,Condition,ICD10CM,4-char nonbill code,,S25.0,20120101,20991231,,Injury of thoracic aorta,S25.0
+37751,570813,1572649,Injury of innominate or subclavian artery,Condition,ICD10CM,4-char nonbill code,,S25.1,20120101,20991231,,Injury of innominate or subclavian artery,S25.1
+37803,570865,1572654,Injury of superior vena cava,Condition,ICD10CM,4-char nonbill code,,S25.2,20120101,20991231,,Injury of superior vena cava,S25.2
+37820,570882,1572655,Injury of innominate or subclavian vein,Condition,ICD10CM,4-char nonbill code,,S25.3,20120101,20991231,,Injury of innominate or subclavian vein,S25.3
+37872,570934,1572660,Injury of pulmonary blood vessels,Condition,ICD10CM,4-char nonbill code,,S25.4,20120101,20991231,,Injury of pulmonary blood vessels,S25.4
+37925,570987,1572665,Injury of intercostal blood vessels,Condition,ICD10CM,4-char nonbill code,,S25.5,20120101,20991231,,Injury of intercostal blood vessels,S25.5
+37965,571027,1572669,Injury of other blood vessels of thorax,Condition,ICD10CM,4-char nonbill code,,S25.8,20120101,20991231,,Injury of other blood vessels of thorax,S25.8
+38005,571067,1572673,Injury of unspecified blood vessel of thorax,Condition,ICD10CM,4-char nonbill code,,S25.9,20120101,20991231,,Injury of unspecified blood vessel of thorax,S25.9
+38019,571081,1572675,Injury of heart with hemopericardium,Condition,ICD10CM,4-char nonbill code,,S26.0,20120101,20991231,,Injury of heart with hemopericardium,S26.0
+38045,571107,1572677,Injury of heart without hemopericardium,Condition,ICD10CM,4-char nonbill code,,S26.1,20120101,20991231,,Injury of heart without hemopericardium,S26.1
+38062,571124,1572678,"Injury of heart, unspecified with or without hemopericardium",Condition,ICD10CM,4-char nonbill code,,S26.9,20120101,20991231,,"Injury of heart, unspecified with or without hemopericardium",S26.9
+38080,571142,11360,Traumatic pneumothorax,Condition,ICD10CM,4-char nonbill code,,S27.0,20140101,20991231,,Traumatic pneumothorax,S27.0
+38084,571146,11361,Traumatic hemothorax,Condition,ICD10CM,4-char nonbill code,,S27.1,20140101,20991231,,Traumatic hemothorax,S27.1
+38088,571150,11362,Traumatic hemopneumothorax,Condition,ICD10CM,4-char nonbill code,,S27.2,20140101,20991231,,Traumatic hemopneumothorax,S27.2
+38092,571154,1572680,Other and unspecified injuries of lung,Condition,ICD10CM,4-char nonbill code,,S27.3,20120101,20991231,,Other and unspecified injuries of lung,S27.3
+38157,571219,1572684,Injury of bronchus,Condition,ICD10CM,4-char nonbill code,,S27.4,20120101,20991231,,Injury of bronchus,S27.4
+38222,571284,1572688,Injury of thoracic trachea,Condition,ICD10CM,4-char nonbill code,,S27.5,20120101,20991231,,Injury of thoracic trachea,S27.5
+38243,571305,1572689,Injury of pleura,Condition,ICD10CM,4-char nonbill code,,S27.6,20120101,20991231,,Injury of pleura,S27.6
+38256,571318,1572690,Injury of other specified intrathoracic organs,Condition,ICD10CM,4-char nonbill code,,S27.8,20120101,20991231,,Injury of other specified intrathoracic organs,S27.8
+38308,571370,11413,Injury of unspecified intrathoracic organ,Condition,ICD10CM,4-char nonbill code,,S27.9,20140101,20991231,,Injury of unspecified intrathoracic organ,S27.9
+38313,571375,11414,Crushed chest,Condition,ICD10CM,4-char nonbill code,,S28.0,20140101,20991231,,Crushed chest,S28.0
+38317,571379,11415,"Traumatic amputation (partial) of part of thorax, except breast",Condition,ICD10CM,4-char nonbill code,,S28.1,20140101,20991231,,"Traumatic amputation (partial) of part of thorax, except breast",S28.1
+38321,571383,1572695,Traumatic amputation of breast,Condition,ICD10CM,4-char nonbill code,,S28.2,20120101,20991231,,Traumatic amputation of breast,S28.2
+38349,571411,1572699,Injury of muscle and tendon at thorax level,Condition,ICD10CM,4-char nonbill code,,S29.0,20120101,20991231,,Injury of muscle and tendon at thorax level,S29.0
+38401,571463,11434,Other specified injuries of thorax,Condition,ICD10CM,4-char nonbill code,,S29.8,20140101,20991231,,Other specified injuries of thorax,S29.8
+38405,571467,11435,Unspecified injury of thorax,Condition,ICD10CM,4-char nonbill code,,S29.9,20140101,20991231,,Unspecified injury of thorax,S29.9
+38410,571472,11436,Contusion of lower back and pelvis,Condition,ICD10CM,4-char nonbill code,,S30.0,20140101,20991231,,Contusion of lower back and pelvis,S30.0
+38414,571476,11437,Contusion of abdominal wall,Condition,ICD10CM,4-char nonbill code,,S30.1,20140101,20991231,,Contusion of abdominal wall,S30.1
+38441,571503,1572707,"Other superficial injuries of abdomen, lower back, pelvis and external genitals",Condition,ICD10CM,4-char nonbill code,,S30.8,20120101,20991231,,"Other superficial injuries of abdomen, lower back, pelvis and external genitals",S30.8
+38635,571697,1572714,"Unspecified superficial injury of abdomen, lower back, pelvis and external genitals",Condition,ICD10CM,4-char nonbill code,,S30.9,20120101,20991231,,"Unspecified superficial injury of abdomen, lower back, pelvis and external genitals",S30.9
+38668,571730,1572716,Open wound of lower back and pelvis,Condition,ICD10CM,4-char nonbill code,,S31.0,20120101,20991231,,Open wound of lower back and pelvis,S31.0
+38715,571777,1573091,Contusion of forearm,Condition,ICD10CM,4-char nonbill code,,S50.1,20120101,20991231,,Contusion of forearm,S50.1
+38724,571786,1572723,Open wound of abdominal wall without penetration into peritoneal cavity,Condition,ICD10CM,4-char nonbill code,,S31.1,20120101,20991231,,Open wound of abdominal wall without penetration into peritoneal cavity,S31.1
+38898,571960,1572730,Open wound of penis,Condition,ICD10CM,4-char nonbill code,,S31.2,20120101,20991231,,Open wound of penis,S31.2
+38947,572009,1572732,Open wound of vagina and vulva,Condition,ICD10CM,4-char nonbill code,,S31.4,20120101,20991231,,Open wound of vagina and vulva,S31.4
+38972,572034,1572733,Open wound of unspecified external genital organs,Condition,ICD10CM,4-char nonbill code,,S31.5,20120101,20991231,,Open wound of unspecified external genital organs,S31.5
+39026,572088,1572740,Open wound of abdominal wall with penetration into peritoneal cavity,Condition,ICD10CM,4-char nonbill code,,S31.6,20120101,20991231,,Open wound of abdominal wall with penetration into peritoneal cavity,S31.6
+39199,572261,1572747,"Open wound of other parts of abdomen, lower back and pelvis",Condition,ICD10CM,4-char nonbill code,,S31.8,20120101,20991231,,"Open wound of other parts of abdomen, lower back and pelvis",S31.8
+39300,572362,1572753,Fracture of lumbar vertebra,Condition,ICD10CM,4-char nonbill code,,S32.0,20120101,20991231,,Fracture of lumbar vertebra,S32.0
+39646,572708,11695,Fracture of coccyx,Condition,ICD10CM,4-char nonbill code,,S32.2,20140101,20991231,,Fracture of coccyx,S32.2
+39653,572715,1572764,Fracture of ilium,Condition,ICD10CM,4-char nonbill code,,S32.3,20120101,20991231,,Fracture of ilium,S32.3
+39741,572803,1572768,Fracture of acetabulum,Condition,ICD10CM,4-char nonbill code,,S32.4,20120101,20991231,,Fracture of acetabulum,S32.4
+40130,573192,1572779,Fracture of pubis,Condition,ICD10CM,4-char nonbill code,,S32.5,20120101,20991231,,Fracture of pubis,S32.5
+40282,573344,1572786,Fracture of other parts of pelvis,Condition,ICD10CM,4-char nonbill code,,S32.8,20120101,20991231,,Fracture of other parts of pelvis,S32.8
+40312,573374,11787,Fracture of unspecified parts of lumbosacral spine and pelvis,Condition,ICD10CM,4-char nonbill code,,S32.9,20140101,20991231,,Fracture of unspecified parts of lumbosacral spine and pelvis,S32.9
+40320,573382,11788,Traumatic rupture of lumbar intervertebral disc,Condition,ICD10CM,4-char nonbill code,,S33.0,20140101,20991231,,Traumatic rupture of lumbar intervertebral disc,S33.0
+40324,573386,1572789,Subluxation and dislocation of lumbar vertebra,Condition,ICD10CM,4-char nonbill code,,S33.1,20120101,20991231,,Subluxation and dislocation of lumbar vertebra,S33.1
+40371,573433,1572795,Dislocation of other and unspecified parts of lumbar spine and pelvis,Condition,ICD10CM,4-char nonbill code,,S33.3,20120101,20991231,,Dislocation of other and unspecified parts of lumbar spine and pelvis,S33.3
+40381,573443,11802,Traumatic rupture of symphysis pubis,Condition,ICD10CM,4-char nonbill code,,S33.4,20140101,20991231,,Traumatic rupture of symphysis pubis,S33.4
+40385,573447,11803,Sprain of ligaments of lumbar spine,Condition,ICD10CM,4-char nonbill code,,S33.5,20140101,20991231,,Sprain of ligaments of lumbar spine,S33.5
+40389,573451,11804,Sprain of sacroiliac joint,Condition,ICD10CM,4-char nonbill code,,S33.6,20140101,20991231,,Sprain of sacroiliac joint,S33.6
+40394,573456,11805,Sprain of other parts of lumbar spine and pelvis,Condition,ICD10CM,4-char nonbill code,,S33.8,20140101,20991231,,Sprain of other parts of lumbar spine and pelvis,S33.8
+40398,573460,11806,Sprain of unspecified parts of lumbar spine and pelvis,Condition,ICD10CM,4-char nonbill code,,S33.9,20140101,20991231,,Sprain of unspecified parts of lumbar spine and pelvis,S33.9
+40403,573465,1572797,Concussion and edema of lumbar and sacral spinal cord,Condition,ICD10CM,4-char nonbill code,,S34.0,20120101,20991231,,Concussion and edema of lumbar and sacral spinal cord,S34.0
+40412,573474,1572798,Other and unspecified injury of lumbar and sacral spinal cord,Condition,ICD10CM,4-char nonbill code,,S34.1,20120101,20991231,,Other and unspecified injury of lumbar and sacral spinal cord,S34.1
+40502,573564,1572803,Injury of nerve root of lumbar and sacral spine,Condition,ICD10CM,4-char nonbill code,,S34.2,20120101,20991231,,Injury of nerve root of lumbar and sacral spine,S34.2
+40511,573573,11831,Injury of cauda equina,Condition,ICD10CM,4-char nonbill code,,S34.3,20140101,20991231,,Injury of cauda equina,S34.3
+40515,573577,11832,Injury of lumbosacral plexus,Condition,ICD10CM,4-char nonbill code,,S34.4,20140101,20991231,,Injury of lumbosacral plexus,S34.4
+40519,573581,11833,"Injury of lumbar, sacral and pelvic sympathetic nerves",Condition,ICD10CM,4-char nonbill code,,S34.5,20140101,20991231,,"Injury of lumbar, sacral and pelvic sympathetic nerves",S34.5
+40523,573585,11834,"Injury of peripheral nerve(s) at abdomen, lower back and pelvis level",Condition,ICD10CM,4-char nonbill code,,S34.6,20140101,20991231,,"Injury of peripheral nerve(s) at abdomen, lower back and pelvis level",S34.6
+40527,573589,11835,"Injury of other nerves at abdomen, lower back and pelvis level",Condition,ICD10CM,4-char nonbill code,,S34.8,20140101,20991231,,"Injury of other nerves at abdomen, lower back and pelvis level",S34.8
+40531,573593,11836,"Injury of unspecified nerves at abdomen, lower back and pelvis level",Condition,ICD10CM,4-char nonbill code,,S34.9,20140101,20991231,,"Injury of unspecified nerves at abdomen, lower back and pelvis level",S34.9
+40536,573598,1572805,Injury of abdominal aorta,Condition,ICD10CM,4-char nonbill code,,S35.0,20120101,20991231,,Injury of abdominal aorta,S35.0
+40553,573615,1572806,Injury of inferior vena cava,Condition,ICD10CM,4-char nonbill code,,S35.1,20120101,20991231,,Injury of inferior vena cava,S35.1
+40570,573632,1572807,Injury of celiac or mesenteric artery and branches,Condition,ICD10CM,4-char nonbill code,,S35.2,20120101,20991231,,Injury of celiac or mesenteric artery and branches,S35.2
+40583,573645,1573269,Traumatic amputation at elbow level,Condition,ICD10CM,4-char nonbill code,,S58.0,20120101,20991231,,Traumatic amputation at elbow level,S58.0
+40640,573702,1572810,Injury of portal or splenic vein and branches,Condition,ICD10CM,4-char nonbill code,,S35.3,20120101,20991231,,Injury of portal or splenic vein and branches,S35.3
+40693,573755,1572812,Injury of renal blood vessels,Condition,ICD10CM,4-char nonbill code,,S35.4,20120101,20991231,,Injury of renal blood vessels,S35.4
+40769,573831,1572816,Injury of iliac blood vessels,Condition,ICD10CM,4-char nonbill code,,S35.5,20120101,20991231,,Injury of iliac blood vessels,S35.5
+40824,573886,1572819,"Injury of other blood vessels at abdomen, lower back and pelvis level",Condition,ICD10CM,4-char nonbill code,,S35.8,20120101,20991231,,"Injury of other blood vessels at abdomen, lower back and pelvis level",S35.8
+40838,573900,1572821,"Injury of unspecified blood vessel at abdomen, lower back and pelvis level",Condition,ICD10CM,4-char nonbill code,,S35.9,20120101,20991231,,"Injury of unspecified blood vessel at abdomen, lower back and pelvis level",S35.9
+40853,573915,1572823,Injury of spleen,Condition,ICD10CM,4-char nonbill code,,S36.0,20120101,20991231,,Injury of spleen,S36.0
+40892,573954,1572824,Injury of liver and gallbladder and bile duct,Condition,ICD10CM,4-char nonbill code,,S36.1,20120101,20991231,,Injury of liver and gallbladder and bile duct,S36.1
+40942,574004,1572826,Injury of pancreas,Condition,ICD10CM,4-char nonbill code,,S36.2,20120101,20991231,,Injury of pancreas,S36.2
+41077,574139,1572834,Injury of small intestine,Condition,ICD10CM,4-char nonbill code,,S36.4,20120101,20991231,,Injury of small intestine,S36.4
+41124,574186,1572843,Injury of other intra-abdominal organs,Condition,ICD10CM,4-char nonbill code,,S36.8,20120101,20991231,,Injury of other intra-abdominal organs,S36.8
+41144,574206,1572838,Injury of colon,Condition,ICD10CM,4-char nonbill code,,S36.5,20120101,20991231,,Injury of colon,S36.5
+41269,574331,1572842,Injury of rectum,Condition,ICD10CM,4-char nonbill code,,S36.6,20120101,20991231,,Injury of rectum,S36.6
+41310,574372,1572845,Injury of unspecified intra-abdominal organ,Condition,ICD10CM,4-char nonbill code,,S36.9,20120101,20991231,,Injury of unspecified intra-abdominal organ,S36.9
+41328,574390,1572847,Injury of kidney,Condition,ICD10CM,4-char nonbill code,,S37.0,20120101,20991231,,Injury of kidney,S37.0
+41430,574492,1572856,Injury of ureter,Condition,ICD10CM,4-char nonbill code,,S37.1,20120101,20991231,,Injury of ureter,S37.1
+41447,574509,1572857,Injury of bladder,Condition,ICD10CM,4-char nonbill code,,S37.2,20120101,20991231,,Injury of bladder,S37.2
+41462,574524,1572858,Injury of urethra,Condition,ICD10CM,4-char nonbill code,,S37.3,20120101,20991231,,Injury of urethra,S37.3
+41530,574592,1572862,Injury of fallopian tube,Condition,ICD10CM,4-char nonbill code,,S37.5,20120101,20991231,,Injury of fallopian tube,S37.5
+41595,574657,1572866,Injury of uterus,Condition,ICD10CM,4-char nonbill code,,S37.6,20120101,20991231,,Injury of uterus,S37.6
+41611,574673,1572867,Injury of other urinary and pelvic organs,Condition,ICD10CM,4-char nonbill code,,S37.8,20120101,20991231,,Injury of other urinary and pelvic organs,S37.8
+41663,574725,1572870,Injury of unspecified urinary and pelvic organ,Condition,ICD10CM,4-char nonbill code,,S37.9,20120101,20991231,,Injury of unspecified urinary and pelvic organ,S37.9
+41681,574743,1572872,Crushing injury of external genital organs,Condition,ICD10CM,4-char nonbill code,,S38.0,20120101,20991231,,Crushing injury of external genital organs,S38.0
+41703,574765,12088,"Crushing injury of abdomen, lower back, and pelvis",Condition,ICD10CM,4-char nonbill code,,S38.1,20140101,20991231,,"Crushing injury of abdomen, lower back, and pelvis",S38.1
+41707,574769,1572874,Traumatic amputation of external genital organs,Condition,ICD10CM,4-char nonbill code,,S38.2,20120101,20991231,,Traumatic amputation of external genital organs,S38.2
+41735,574797,12095,Transection (partial) of abdomen,Condition,ICD10CM,4-char nonbill code,,S38.3,20140101,20991231,,Transection (partial) of abdomen,S38.3
+41740,574802,1572878,"Injury of muscle, fascia and tendon of abdomen, lower back and pelvis",Condition,ICD10CM,4-char nonbill code,,S39.0,20120101,20991231,,"Injury of muscle, fascia and tendon of abdomen, lower back and pelvis",S39.0
+41793,574855,1572883,"Other specified injuries of abdomen, lower back, pelvis and external genitals",Condition,ICD10CM,4-char nonbill code,,S39.8,20120101,20991231,,"Other specified injuries of abdomen, lower back, pelvis and external genitals",S39.8
+41815,574877,1572885,"Unspecified injury of abdomen, lower back, pelvis and external genitals",Condition,ICD10CM,4-char nonbill code,,S39.9,20120101,20991231,,"Unspecified injury of abdomen, lower back, pelvis and external genitals",S39.9
+41833,574895,1572887,Contusion of shoulder and upper arm,Condition,ICD10CM,4-char nonbill code,,S40.0,20120101,20991231,,Contusion of shoulder and upper arm,S40.0
+41859,574921,1572889,Other superficial injuries of shoulder,Condition,ICD10CM,4-char nonbill code,,S40.2,20120101,20991231,,Other superficial injuries of shoulder,S40.2
+41938,575000,1572896,Other superficial injuries of upper arm,Condition,ICD10CM,4-char nonbill code,,S40.8,20120101,20991231,,Other superficial injuries of upper arm,S40.8
+42016,575078,1572903,Unspecified superficial injury of shoulder and upper arm,Condition,ICD10CM,4-char nonbill code,,S40.9,20120101,20991231,,Unspecified superficial injury of shoulder and upper arm,S40.9
+42043,575105,1572907,Open wound of shoulder,Condition,ICD10CM,4-char nonbill code,,S41.0,20120101,20991231,,Open wound of shoulder,S41.0
+42199,575261,1572922,Fracture of clavicle,Condition,ICD10CM,4-char nonbill code,,S42.0,20120101,20991231,,Fracture of clavicle,S42.0
+42396,575458,1572925,Fracture of scapula,Condition,ICD10CM,4-char nonbill code,,S42.1,20120101,20991231,,Fracture of scapula,S42.1
+43040,576102,1572943,Fracture of shaft of humerus,Condition,ICD10CM,4-char nonbill code,,S42.3,20120101,20991231,,Fracture of shaft of humerus,S42.3
+43551,576613,1573014,Injury of axillary or brachial vein,Condition,ICD10CM,4-char nonbill code,,S45.2,20120101,20991231,,Injury of axillary or brachial vein,S45.2
+43818,576880,1572963,"Fracture of shoulder girdle, part unspecified",Condition,ICD10CM,4-char nonbill code,,S42.9,20120101,20991231,,"Fracture of shoulder girdle, part unspecified",S42.9
+43844,576906,1572965,Subluxation and dislocation of shoulder joint,Condition,ICD10CM,4-char nonbill code,,S43.0,20120101,20991231,,Subluxation and dislocation of shoulder joint,S43.0
+43969,577031,1572971,Subluxation and dislocation of acromioclavicular joint,Condition,ICD10CM,4-char nonbill code,,S43.1,20120101,20991231,,Subluxation and dislocation of acromioclavicular joint,S43.1
+44049,577111,1572977,Subluxation and dislocation of sternoclavicular joint,Condition,ICD10CM,4-char nonbill code,,S43.2,20120101,20991231,,Subluxation and dislocation of sternoclavicular joint,S43.2
+44126,577188,1572981,Subluxation and dislocation of other and unspecified parts of shoulder girdle,Condition,ICD10CM,4-char nonbill code,,S43.3,20120101,20991231,,Subluxation and dislocation of other and unspecified parts of shoulder girdle,S43.3
+44266,577328,1572991,Sprain of acromioclavicular joint,Condition,ICD10CM,4-char nonbill code,,S43.5,20120101,20991231,,Sprain of acromioclavicular joint,S43.5
+44279,577341,1572992,Sprain of sternoclavicular joint,Condition,ICD10CM,4-char nonbill code,,S43.6,20120101,20991231,,Sprain of sternoclavicular joint,S43.6
+44292,577354,1572993,Sprain of other specified parts of shoulder girdle,Condition,ICD10CM,4-char nonbill code,,S43.8,20120101,20991231,,Sprain of other specified parts of shoulder girdle,S43.8
+44305,577367,1572994,Sprain of unspecified parts of shoulder girdle,Condition,ICD10CM,4-char nonbill code,,S43.9,20120101,20991231,,Sprain of unspecified parts of shoulder girdle,S43.9
+44320,577382,1572996,Injury of ulnar nerve at upper arm level,Condition,ICD10CM,4-char nonbill code,,S44.0,20120101,20991231,,Injury of ulnar nerve at upper arm level,S44.0
+44333,577395,1572997,Injury of median nerve at upper arm level,Condition,ICD10CM,4-char nonbill code,,S44.1,20120101,20991231,,Injury of median nerve at upper arm level,S44.1
+44347,577409,1572998,Injury of radial nerve at upper arm level,Condition,ICD10CM,4-char nonbill code,,S44.2,20120101,20991231,,Injury of radial nerve at upper arm level,S44.2
+44360,577422,1572999,Injury of axillary nerve,Condition,ICD10CM,4-char nonbill code,,S44.3,20120101,20991231,,Injury of axillary nerve,S44.3
+44373,577435,1573000,Injury of musculocutaneous nerve,Condition,ICD10CM,4-char nonbill code,,S44.4,20120101,20991231,,Injury of musculocutaneous nerve,S44.4
+44386,577448,1573001,Injury of cutaneous sensory nerve at shoulder and upper arm level,Condition,ICD10CM,4-char nonbill code,,S44.5,20120101,20991231,,Injury of cutaneous sensory nerve at shoulder and upper arm level,S44.5
+44400,577462,1573002,Injury of other nerves at shoulder and upper arm level,Condition,ICD10CM,4-char nonbill code,,S44.8,20120101,20991231,,Injury of other nerves at shoulder and upper arm level,S44.8
+44415,577477,1573004,Injury of unspecified nerve at shoulder and upper arm level,Condition,ICD10CM,4-char nonbill code,,S44.9,20120101,20991231,,Injury of unspecified nerve at shoulder and upper arm level,S44.9
+44429,577491,1573006,Injury of axillary artery,Condition,ICD10CM,4-char nonbill code,,S45.0,20120101,20991231,,Injury of axillary artery,S45.0
+44467,577529,1573010,Injury of brachial artery,Condition,ICD10CM,4-char nonbill code,,S45.1,20120101,20991231,,Injury of brachial artery,S45.1
+44546,577608,1573018,Injury of superficial vein at shoulder and upper arm level,Condition,ICD10CM,4-char nonbill code,,S45.3,20120101,20991231,,Injury of superficial vein at shoulder and upper arm level,S45.3
+44586,577648,1573022,Injury of other specified blood vessels at shoulder and upper arm level,Condition,ICD10CM,4-char nonbill code,,S45.8,20120101,20991231,,Injury of other specified blood vessels at shoulder and upper arm level,S45.8
+44626,577688,1573026,Injury of unspecified blood vessel at shoulder and upper arm level,Condition,ICD10CM,4-char nonbill code,,S45.9,20120101,20991231,,Injury of unspecified blood vessel at shoulder and upper arm level,S45.9
+44667,577729,1573031,Injury of muscle(s) and tendon(s) of the rotator cuff of shoulder,Condition,ICD10CM,4-char nonbill code,,S46.0,20120101,20991231,,Injury of muscle(s) and tendon(s) of the rotator cuff of shoulder,S46.0
+44722,577784,1573036,"Injury of muscle, fascia and tendon of long head of biceps",Condition,ICD10CM,4-char nonbill code,,S46.1,20120101,20991231,,"Injury of muscle, fascia and tendon of long head of biceps",S46.1
+44775,577837,1573041,"Injury of muscle, fascia and tendon of other parts of biceps",Condition,ICD10CM,4-char nonbill code,,S46.2,20120101,20991231,,"Injury of muscle, fascia and tendon of other parts of biceps",S46.2
+44829,577891,1573046,"Injury of muscle, fascia and tendon of triceps",Condition,ICD10CM,4-char nonbill code,,S46.3,20120101,20991231,,"Injury of muscle, fascia and tendon of triceps",S46.3
+44882,577944,1573051,"Injury of other muscles, fascia and tendons at shoulder and upper arm level",Condition,ICD10CM,4-char nonbill code,,S46.8,20120101,20991231,,"Injury of other muscles, fascia and tendons at shoulder and upper arm level",S46.8
+44935,577997,1573056,"Injury of unspecified muscle, fascia and tendon at shoulder and upper arm level",Condition,ICD10CM,4-char nonbill code,,S46.9,20120101,20991231,,"Injury of unspecified muscle, fascia and tendon at shoulder and upper arm level",S46.9
+44990,578052,12663,Crushing injury of right shoulder and upper arm,Condition,ICD10CM,4-char nonbill code,,S47.1,20140101,20991231,,Crushing injury of right shoulder and upper arm,S47.1
+44994,578056,12664,Crushing injury of left shoulder and upper arm,Condition,ICD10CM,4-char nonbill code,,S47.2,20140101,20991231,,Crushing injury of left shoulder and upper arm,S47.2
+44998,578060,12665,"Crushing injury of shoulder and upper arm, unspecified arm",Condition,ICD10CM,4-char nonbill code,,S47.9,20140101,20991231,,"Crushing injury of shoulder and upper arm, unspecified arm",S47.9
+45003,578065,1573063,Traumatic amputation at shoulder joint,Condition,ICD10CM,4-char nonbill code,,S48.0,20120101,20991231,,Traumatic amputation at shoulder joint,S48.0
+45030,578092,1573066,Traumatic amputation at level between shoulder and elbow,Condition,ICD10CM,4-char nonbill code,,S48.1,20120101,20991231,,Traumatic amputation at level between shoulder and elbow,S48.1
+45084,578146,1573073,Physeal fracture of upper end of humerus,Condition,ICD10CM,4-char nonbill code,,S49.0,20120101,20991231,,Physeal fracture of upper end of humerus,S49.0
+45353,578415,1573087,Other specified injuries of shoulder and upper arm,Condition,ICD10CM,4-char nonbill code,,S49.8,20120101,20991231,,Other specified injuries of shoulder and upper arm,S49.8
+45366,578428,1573088,Unspecified injury of shoulder and upper arm,Condition,ICD10CM,4-char nonbill code,,S49.9,20120101,20991231,,Unspecified injury of shoulder and upper arm,S49.9
+45380,578442,1573090,Contusion of elbow,Condition,ICD10CM,4-char nonbill code,,S50.0,20120101,20991231,,Contusion of elbow,S50.0
+45402,578464,1573092,Other superficial injuries of elbow,Condition,ICD10CM,4-char nonbill code,,S50.3,20120101,20991231,,Other superficial injuries of elbow,S50.3
+45478,578540,1573099,Other superficial injuries of forearm,Condition,ICD10CM,4-char nonbill code,,S50.8,20120101,20991231,,Other superficial injuries of forearm,S50.8
+45559,578621,1573106,Unspecified superficial injury of elbow and forearm,Condition,ICD10CM,4-char nonbill code,,S50.9,20120101,20991231,,Unspecified superficial injury of elbow and forearm,S50.9
+45587,578649,1573110,Open wound of elbow,Condition,ICD10CM,4-char nonbill code,,S51.0,20120101,20991231,,Open wound of elbow,S51.0
+45666,578728,1573117,Open wound of forearm,Condition,ICD10CM,4-char nonbill code,,S51.8,20120101,20991231,,Open wound of forearm,S51.8
+45746,578808,1573125,Fracture of upper end of ulna,Condition,ICD10CM,4-char nonbill code,,S52.0,20120101,20991231,,Fracture of upper end of ulna,S52.0
+46187,579249,1573131,Fracture of upper end of radius,Condition,ICD10CM,4-char nonbill code,,S52.1,20120101,20991231,,Fracture of upper end of radius,S52.1
+46478,579540,1573148,Fracture of shaft of radius,Condition,ICD10CM,4-char nonbill code,,S52.3,20120101,20991231,,Fracture of shaft of radius,S52.3
+46517,579579,1573137,Fracture of shaft of ulna,Condition,ICD10CM,4-char nonbill code,,S52.2,20120101,20991231,,Fracture of shaft of ulna,S52.2
+48009,581071,1573159,Fracture of lower end of radius,Condition,ICD10CM,4-char nonbill code,,S52.5,20120101,20991231,,Fracture of lower end of radius,S52.5
+48501,581563,1573166,Fracture of lower end of ulna,Condition,ICD10CM,4-char nonbill code,,S52.6,20120101,20991231,,Fracture of lower end of ulna,S52.6
+48717,581779,1573212,Injury of vein at forearm level,Condition,ICD10CM,4-char nonbill code,,S55.2,20120101,20991231,,Injury of vein at forearm level,S55.2
+48733,581795,1573171,Unspecified fracture of forearm,Condition,ICD10CM,4-char nonbill code,,S52.9,20120101,20991231,,Unspecified fracture of forearm,S52.9
+48787,581849,1573173,Subluxation and dislocation of radial head,Condition,ICD10CM,4-char nonbill code,,S53.0,20120101,20991231,,Subluxation and dislocation of radial head,S53.0
+48890,581952,1573179,Subluxation and dislocation of ulnohumeral joint,Condition,ICD10CM,4-char nonbill code,,S53.1,20120101,20991231,,Subluxation and dislocation of ulnohumeral joint,S53.1
+49042,582104,1573186,Traumatic rupture of radial collateral ligament,Condition,ICD10CM,4-char nonbill code,,S53.2,20120101,20991231,,Traumatic rupture of radial collateral ligament,S53.2
+49055,582117,1573187,Traumatic rupture of ulnar collateral ligament,Condition,ICD10CM,4-char nonbill code,,S53.3,20120101,20991231,,Traumatic rupture of ulnar collateral ligament,S53.3
+49069,582131,1573188,Sprain of elbow,Condition,ICD10CM,4-char nonbill code,,S53.4,20120101,20991231,,Sprain of elbow,S53.4
+49150,582212,1573196,Injury of ulnar nerve at forearm level,Condition,ICD10CM,4-char nonbill code,,S54.0,20120101,20991231,,Injury of ulnar nerve at forearm level,S54.0
+49163,582225,1573197,Injury of median nerve at forearm level,Condition,ICD10CM,4-char nonbill code,,S54.1,20120101,20991231,,Injury of median nerve at forearm level,S54.1
+49176,582238,1573198,Injury of radial nerve at forearm level,Condition,ICD10CM,4-char nonbill code,,S54.2,20120101,20991231,,Injury of radial nerve at forearm level,S54.2
+49189,582251,1573199,Injury of cutaneous sensory nerve at forearm level,Condition,ICD10CM,4-char nonbill code,,S54.3,20120101,20991231,,Injury of cutaneous sensory nerve at forearm level,S54.3
+49202,582264,1573200,Injury of other nerves at forearm level,Condition,ICD10CM,4-char nonbill code,,S54.8,20120101,20991231,,Injury of other nerves at forearm level,S54.8
+49215,582277,1573202,Injury of unspecified nerve at forearm level,Condition,ICD10CM,4-char nonbill code,,S54.9,20120101,20991231,,Injury of unspecified nerve at forearm level,S54.9
+49229,582291,1573204,Injury of ulnar artery at forearm level,Condition,ICD10CM,4-char nonbill code,,S55.0,20120101,20991231,,Injury of ulnar artery at forearm level,S55.0
+49270,582332,1573208,Injury of radial artery at forearm level,Condition,ICD10CM,4-char nonbill code,,S55.1,20120101,20991231,,Injury of radial artery at forearm level,S55.1
+49349,582411,1573216,Injury of other blood vessels at forearm level,Condition,ICD10CM,4-char nonbill code,,S55.8,20120101,20991231,,Injury of other blood vessels at forearm level,S55.8
+49389,582451,1573220,Injury of unspecified blood vessel at forearm level,Condition,ICD10CM,4-char nonbill code,,S55.9,20120101,20991231,,Injury of unspecified blood vessel at forearm level,S55.9
+49430,582492,1573225,"Injury of flexor muscle, fascia and tendon of thumb at forearm level",Condition,ICD10CM,4-char nonbill code,,S56.0,20120101,20991231,,"Injury of flexor muscle, fascia and tendon of thumb at forearm level",S56.0
+49485,582547,1573230,"Injury of flexor muscle, fascia and tendon of other and unspecified finger at forearm level",Condition,ICD10CM,4-char nonbill code,,S56.1,20120101,20991231,,"Injury of flexor muscle, fascia and tendon of other and unspecified finger at forearm level",S56.1
+49637,582699,1573235,"Injury of other flexor muscle, fascia and tendon at forearm level",Condition,ICD10CM,4-char nonbill code,,S56.2,20120101,20991231,,"Injury of other flexor muscle, fascia and tendon at forearm level",S56.2
+49691,582753,1573240,"Injury of extensor or abductor muscles, fascia and tendons of thumb at forearm level",Condition,ICD10CM,4-char nonbill code,,S56.3,20120101,20991231,,"Injury of extensor or abductor muscles, fascia and tendons of thumb at forearm level",S56.3
+49746,582808,1573245,"Injury of extensor muscle, fascia and tendon of other and unspecified finger at forearm level",Condition,ICD10CM,4-char nonbill code,,S56.4,20120101,20991231,,"Injury of extensor muscle, fascia and tendon of other and unspecified finger at forearm level",S56.4
+49949,583011,1573255,"Injury of other muscles, fascia and tendons at forearm level",Condition,ICD10CM,4-char nonbill code,,S56.8,20120101,20991231,,"Injury of other muscles, fascia and tendons at forearm level",S56.8
+50002,583064,1573260,"Injury of unspecified muscles, fascia and tendons at forearm level",Condition,ICD10CM,4-char nonbill code,,S56.9,20120101,20991231,,"Injury of unspecified muscles, fascia and tendons at forearm level",S56.9
+50057,583119,1573266,Crushing injury of elbow,Condition,ICD10CM,4-char nonbill code,,S57.0,20120101,20991231,,Crushing injury of elbow,S57.0
+50070,583132,1573267,Crushing injury of forearm,Condition,ICD10CM,4-char nonbill code,,S57.8,20120101,20991231,,Crushing injury of forearm,S57.8
+50105,583167,1573272,Traumatic amputation at level between elbow and wrist,Condition,ICD10CM,4-char nonbill code,,S58.1,20120101,20991231,,Traumatic amputation at level between elbow and wrist,S58.1
+50132,583194,1573275,"Traumatic amputation of forearm, level unspecified",Condition,ICD10CM,4-char nonbill code,,S58.9,20120101,20991231,,"Traumatic amputation of forearm, level unspecified",S58.9
+50160,583222,1573279,Physeal fracture of lower end of ulna,Condition,ICD10CM,4-char nonbill code,,S59.0,20120101,20991231,,Physeal fracture of lower end of ulna,S59.0
+50427,583489,1573293,Physeal fracture of lower end of radius,Condition,ICD10CM,4-char nonbill code,,S59.2,20120101,20991231,,Physeal fracture of lower end of radius,S59.2
+50561,583623,1573300,Other specified injuries of elbow and forearm,Condition,ICD10CM,4-char nonbill code,,S59.8,20120101,20991231,,Other specified injuries of elbow and forearm,S59.8
+50582,583644,1573303,Unspecified injury of elbow and forearm,Condition,ICD10CM,4-char nonbill code,,S59.9,20120101,20991231,,Unspecified injury of elbow and forearm,S59.9
+50610,583672,1573307,Contusion of finger without damage to nail,Condition,ICD10CM,4-char nonbill code,,S60.0,20120101,20991231,,Contusion of finger without damage to nail,S60.0
+50679,583741,1573313,Contusion of finger with damage to nail,Condition,ICD10CM,4-char nonbill code,,S60.1,20120101,20991231,,Contusion of finger with damage to nail,S60.1
+50750,583812,1573319,Contusion of wrist and hand,Condition,ICD10CM,4-char nonbill code,,S60.2,20120101,20991231,,Contusion of wrist and hand,S60.2
+50777,583839,1573320,Other superficial injuries of thumb,Condition,ICD10CM,4-char nonbill code,,S60.3,20120101,20991231,,Other superficial injuries of thumb,S60.3
+50866,583928,1573328,Other superficial injuries of other fingers,Condition,ICD10CM,4-char nonbill code,,S60.4,20120101,20991231,,Other superficial injuries of other fingers,S60.4
+51113,584175,1573335,Other superficial injuries of hand,Condition,ICD10CM,4-char nonbill code,,S60.5,20120101,20991231,,Other superficial injuries of hand,S60.5
+51191,584253,1573341,Other superficial injuries of wrist,Condition,ICD10CM,4-char nonbill code,,S60.8,20120101,20991231,,Other superficial injuries of wrist,S60.8
+51269,584331,1573347,"Unspecified superficial injury of wrist, hand and fingers",Condition,ICD10CM,4-char nonbill code,,S60.9,20120101,20991231,,"Unspecified superficial injury of wrist, hand and fingers",S60.9
+51351,584413,1573353,Open wound of thumb without damage to nail,Condition,ICD10CM,4-char nonbill code,,S61.0,20120101,20991231,,Open wound of thumb without damage to nail,S61.0
+51430,584492,1573360,Open wound of thumb with damage to nail,Condition,ICD10CM,4-char nonbill code,,S61.1,20120101,20991231,,Open wound of thumb with damage to nail,S61.1
+51509,584571,1573367,Open wound of other finger without damage to nail,Condition,ICD10CM,4-char nonbill code,,S61.2,20120101,20991231,,Open wound of other finger without damage to nail,S61.2
+51756,584818,1573374,Open wound of other finger with damage to nail,Condition,ICD10CM,4-char nonbill code,,S61.3,20120101,20991231,,Open wound of other finger with damage to nail,S61.3
+52005,585067,45569137,Open wound of hand,Condition,ICD10CM,4-char nonbill code,,S61.4,20061230,20991231,,Open wound of hand,S61.4
+52082,585144,45598204,Open wound of wrist,Condition,ICD10CM,4-char nonbill code,,S61.5,20061230,20991231,,Open wound of wrist,S61.5
+52161,585223,1573394,Fracture of navicular [scaphoid] bone of wrist,Condition,ICD10CM,4-char nonbill code,,S62.0,20120101,20991231,,Fracture of navicular [scaphoid] bone of wrist,S62.0
+52337,585399,1573399,Fracture of other and unspecified carpal bone(s),Condition,ICD10CM,4-char nonbill code,,S62.1,20120101,20991231,,Fracture of other and unspecified carpal bone(s),S62.1
+52756,585818,1573408,Fracture of first metacarpal bone,Condition,ICD10CM,4-char nonbill code,,S62.2,20120101,20991231,,Fracture of first metacarpal bone,S62.2
+53030,586092,1573416,Fracture of other and unspecified metacarpal bone,Condition,ICD10CM,4-char nonbill code,,S62.3,20120101,20991231,,Fracture of other and unspecified metacarpal bone,S62.3
+53800,586862,1573429,Fracture of other and unspecified finger(s),Condition,ICD10CM,4-char nonbill code,,S62.6,20120101,20991231,,Fracture of other and unspecified finger(s),S62.6
+54372,587434,1573437,Unspecified fracture of wrist and hand,Condition,ICD10CM,4-char nonbill code,,S62.9,20120101,20991231,,Unspecified fracture of wrist and hand,S62.9
+54398,587460,1573439,Subluxation and dislocation of wrist and hand joints,Condition,ICD10CM,4-char nonbill code,,S63.0,20120101,20991231,,Subluxation and dislocation of wrist and hand joints,S63.0
+54620,587682,1573449,Subluxation and dislocation of thumb,Condition,ICD10CM,4-char nonbill code,,S63.1,20120101,20991231,,Subluxation and dislocation of thumb,S63.1
+55104,588166,1573466,Traumatic rupture of ligament of wrist,Condition,ICD10CM,4-char nonbill code,,S63.3,20120101,20991231,,Traumatic rupture of ligament of wrist,S63.3
+55171,588233,1573472,Traumatic rupture of ligament of finger at metacarpophalangeal and interphalangeal joint(s),Condition,ICD10CM,4-char nonbill code,,S63.4,20120101,20991231,,Traumatic rupture of ligament of finger at metacarpophalangeal and interphalangeal joint(s),S63.4
+55379,588441,1573478,Other and unspecified sprain of wrist,Condition,ICD10CM,4-char nonbill code,,S63.5,20120101,20991231,,Other and unspecified sprain of wrist,S63.5
+55429,588491,1573483,Other and unspecified sprain of finger(s),Condition,ICD10CM,4-char nonbill code,,S63.6,20120101,20991231,,Other and unspecified sprain of finger(s),S63.6
+55643,588705,1573492,Sprain of other part of wrist and hand,Condition,ICD10CM,4-char nonbill code,,S63.8,20120101,20991231,,Sprain of other part of wrist and hand,S63.8
+55657,588719,1573494,Sprain of unspecified part of wrist and hand,Condition,ICD10CM,4-char nonbill code,,S63.9,20120101,20991231,,Sprain of unspecified part of wrist and hand,S63.9
+55670,588732,1573496,Injury of ulnar nerve at wrist and hand level,Condition,ICD10CM,4-char nonbill code,,S64.0,20120101,20991231,,Injury of ulnar nerve at wrist and hand level,S64.0
+55683,588745,1573497,Injury of median nerve at wrist and hand level,Condition,ICD10CM,4-char nonbill code,,S64.1,20120101,20991231,,Injury of median nerve at wrist and hand level,S64.1
+55696,588758,1573498,Injury of radial nerve at wrist and hand level,Condition,ICD10CM,4-char nonbill code,,S64.2,20120101,20991231,,Injury of radial nerve at wrist and hand level,S64.2
+55709,588771,1573499,Injury of digital nerve of thumb,Condition,ICD10CM,4-char nonbill code,,S64.3,20120101,20991231,,Injury of digital nerve of thumb,S64.3
+55722,588784,1573500,Injury of digital nerve of other and unspecified finger,Condition,ICD10CM,4-char nonbill code,,S64.4,20120101,20991231,,Injury of digital nerve of other and unspecified finger,S64.4
+55764,588826,1573502,Injury of other nerves at wrist and hand level,Condition,ICD10CM,4-char nonbill code,,S64.8,20120101,20991231,,Injury of other nerves at wrist and hand level,S64.8
+55779,588841,1573504,Injury of unspecified nerve at wrist and hand level,Condition,ICD10CM,4-char nonbill code,,S64.9,20120101,20991231,,Injury of unspecified nerve at wrist and hand level,S64.9
+55793,588855,1573506,Injury of ulnar artery at wrist and hand level,Condition,ICD10CM,4-char nonbill code,,S65.0,20120101,20991231,,Injury of ulnar artery at wrist and hand level,S65.0
+55833,588895,1573510,Injury of radial artery at wrist and hand level,Condition,ICD10CM,4-char nonbill code,,S65.1,20120101,20991231,,Injury of radial artery at wrist and hand level,S65.1
+55874,588936,1573514,Injury of superficial palmar arch,Condition,ICD10CM,4-char nonbill code,,S65.2,20120101,20991231,,Injury of superficial palmar arch,S65.2
+55951,589013,1573522,Injury of blood vessel of thumb,Condition,ICD10CM,4-char nonbill code,,S65.4,20120101,20991231,,Injury of blood vessel of thumb,S65.4
+55991,589053,1573526,Injury of blood vessel of other and unspecified finger,Condition,ICD10CM,4-char nonbill code,,S65.5,20120101,20991231,,Injury of blood vessel of other and unspecified finger,S65.5
+56114,589176,1573530,Injury of other blood vessels at wrist and hand level,Condition,ICD10CM,4-char nonbill code,,S65.8,20120101,20991231,,Injury of other blood vessels at wrist and hand level,S65.8
+56154,589216,1573534,Injury of unspecified blood vessel at wrist and hand level,Condition,ICD10CM,4-char nonbill code,,S65.9,20120101,20991231,,Injury of unspecified blood vessel at wrist and hand level,S65.9
+56196,589258,1573539,"Injury of long flexor muscle, fascia and tendon of thumb at wrist and hand level",Condition,ICD10CM,4-char nonbill code,,S66.0,20120101,20991231,,"Injury of long flexor muscle, fascia and tendon of thumb at wrist and hand level",S66.0
+56249,589311,1573544,"Injury of flexor muscle, fascia and tendon of other and unspecified finger at wrist and hand level",Condition,ICD10CM,4-char nonbill code,,S66.1,20120101,20991231,,"Injury of flexor muscle, fascia and tendon of other and unspecified finger at wrist and hand level",S66.1
+56416,589478,1573549,"Injury of extensor muscle, fascia and tendon of thumb at wrist and hand level",Condition,ICD10CM,4-char nonbill code,,S66.2,20120101,20991231,,"Injury of extensor muscle, fascia and tendon of thumb at wrist and hand level",S66.2
+56468,589530,1573554,"Injury of extensor muscle, fascia and tendon of other and unspecified finger at wrist and hand level",Condition,ICD10CM,4-char nonbill code,,S66.3,20120101,20991231,,"Injury of extensor muscle, fascia and tendon of other and unspecified finger at wrist and hand level",S66.3
+56635,589697,1573559,"Injury of intrinsic muscle, fascia and tendon of thumb at wrist and hand level",Condition,ICD10CM,4-char nonbill code,,S66.4,20120101,20991231,,"Injury of intrinsic muscle, fascia and tendon of thumb at wrist and hand level",S66.4
+56689,589751,1573564,"Injury of intrinsic muscle, fascia and tendon of other and unspecified finger at wrist and hand level",Condition,ICD10CM,4-char nonbill code,,S66.5,20120101,20991231,,"Injury of intrinsic muscle, fascia and tendon of other and unspecified finger at wrist and hand level",S66.5
+56855,589917,1573569,"Injury of other specified muscles, fascia and tendons at wrist and hand level",Condition,ICD10CM,4-char nonbill code,,S66.8,20120101,20991231,,"Injury of other specified muscles, fascia and tendons at wrist and hand level",S66.8
+56908,589970,1573574,"Injury of unspecified muscle, fascia and tendon at wrist and hand level",Condition,ICD10CM,4-char nonbill code,,S66.9,20120101,20991231,,"Injury of unspecified muscle, fascia and tendon at wrist and hand level",S66.9
+56963,590025,1573580,Crushing injury of thumb,Condition,ICD10CM,4-char nonbill code,,S67.0,20120101,20991231,,Crushing injury of thumb,S67.0
+56976,590038,1573581,Crushing injury of other and unspecified finger(s),Condition,ICD10CM,4-char nonbill code,,S67.1,20120101,20991231,,Crushing injury of other and unspecified finger(s),S67.1
+57011,590073,45550174,Crushing injury of hand,Condition,ICD10CM,4-char nonbill code,,S67.2,20061230,20991231,,Crushing injury of hand,S67.2
+57024,590086,45579069,Crushing injury of wrist,Condition,ICD10CM,4-char nonbill code,,S67.3,20061230,20991231,,Crushing injury of wrist,S67.3
+57037,590099,1573583,Crushing injury of wrist and hand,Condition,ICD10CM,4-char nonbill code,,S67.4,20120101,20991231,,Crushing injury of wrist and hand,S67.4
+57050,590112,1573584,"Crushing injury of unspecified part(s) of wrist, hand and fingers",Condition,ICD10CM,4-char nonbill code,,S67.9,20120101,20991231,,"Crushing injury of unspecified part(s) of wrist, hand and fingers",S67.9
+57064,590126,1573586,Traumatic metacarpophalangeal amputation of thumb,Condition,ICD10CM,4-char nonbill code,,S68.0,20120101,20991231,,Traumatic metacarpophalangeal amputation of thumb,S68.0
+57091,590153,1573589,Traumatic metacarpophalangeal amputation of other and unspecified finger,Condition,ICD10CM,4-char nonbill code,,S68.1,20120101,20991231,,Traumatic metacarpophalangeal amputation of other and unspecified finger,S68.1
+57175,590237,1573592,Traumatic amputation of hand at wrist level,Condition,ICD10CM,4-char nonbill code,,S68.4,20120101,20991231,,Traumatic amputation of hand at wrist level,S68.4
+57203,590265,1573595,Traumatic transphalangeal amputation of thumb,Condition,ICD10CM,4-char nonbill code,,S68.5,20120101,20991231,,Traumatic transphalangeal amputation of thumb,S68.5
+57230,590292,1573598,Traumatic transphalangeal amputation of other and unspecified finger,Condition,ICD10CM,4-char nonbill code,,S68.6,20120101,20991231,,Traumatic transphalangeal amputation of other and unspecified finger,S68.6
+57314,590376,1573601,Traumatic transmetacarpal amputation of hand,Condition,ICD10CM,4-char nonbill code,,S68.7,20120101,20991231,,Traumatic transmetacarpal amputation of hand,S68.7
+57341,590403,1573605,"Other specified injuries of wrist, hand and finger(s)",Condition,ICD10CM,4-char nonbill code,,S69.8,20120101,20991231,,"Other specified injuries of wrist, hand and finger(s)",S69.8
+57354,590416,1573606,"Unspecified injury of wrist, hand and finger(s)",Condition,ICD10CM,4-char nonbill code,,S69.9,20120101,20991231,,"Unspecified injury of wrist, hand and finger(s)",S69.9
+57368,590430,1573608,Contusion of hip,Condition,ICD10CM,4-char nonbill code,,S70.0,20120101,20991231,,Contusion of hip,S70.0
+57391,590453,1573610,Other superficial injuries of hip,Condition,ICD10CM,4-char nonbill code,,S70.2,20120101,20991231,,Other superficial injuries of hip,S70.2
+57471,590533,1573617,Other superficial injuries of thigh,Condition,ICD10CM,4-char nonbill code,,S70.3,20120101,20991231,,Other superficial injuries of thigh,S70.3
+57549,590611,1573624,Unspecified superficial injury of hip and thigh,Condition,ICD10CM,4-char nonbill code,,S70.9,20120101,20991231,,Unspecified superficial injury of hip and thigh,S70.9
+57576,590638,1573628,Open wound of hip,Condition,ICD10CM,4-char nonbill code,,S71.0,20120101,20991231,,Open wound of hip,S71.0
+57655,590717,1573635,Open wound of thigh,Condition,ICD10CM,4-char nonbill code,,S71.1,20120101,20991231,,Open wound of thigh,S71.1
+57734,590796,1573643,Fracture of head and neck of femur,Condition,ICD10CM,4-char nonbill code,,S72.0,20120101,20991231,,Fracture of head and neck of femur,S72.0
+58351,591413,1573652,Pertrochanteric fracture,Condition,ICD10CM,4-char nonbill code,,S72.1,20120101,20991231,,Pertrochanteric fracture,S72.1
+58814,591876,1573657,Subtrochanteric fracture of femur,Condition,ICD10CM,4-char nonbill code,,S72.2,20120101,20991231,,Subtrochanteric fracture of femur,S72.2
+58916,591978,1573658,Fracture of shaft of femur,Condition,ICD10CM,4-char nonbill code,,S72.3,20120101,20991231,,Fracture of shaft of femur,S72.3
+60277,593339,1573676,Other fracture of femur,Condition,ICD10CM,4-char nonbill code,,S72.8,20120101,20991231,,Other fracture of femur,S72.8
+60329,593391,1573678,Unspecified fracture of femur,Condition,ICD10CM,4-char nonbill code,,S72.9,20120101,20991231,,Unspecified fracture of femur,S72.9
+60382,593444,1573680,Subluxation and dislocation of hip,Condition,ICD10CM,4-char nonbill code,,S73.0,20120101,20991231,,Subluxation and dislocation of hip,S73.0
+60495,593557,1573686,Sprain of hip,Condition,ICD10CM,4-char nonbill code,,S73.1,20120101,20991231,,Sprain of hip,S73.1
+60548,593610,1573692,Injury of sciatic nerve at hip and thigh level,Condition,ICD10CM,4-char nonbill code,,S74.0,20120101,20991231,,Injury of sciatic nerve at hip and thigh level,S74.0
+60573,593635,1573694,Injury of cutaneous sensory nerve at hip and thigh level,Condition,ICD10CM,4-char nonbill code,,S74.2,20120101,20991231,,Injury of cutaneous sensory nerve at hip and thigh level,S74.2
+60586,593648,1573695,Injury of other nerves at hip and thigh level,Condition,ICD10CM,4-char nonbill code,,S74.8,20120101,20991231,,Injury of other nerves at hip and thigh level,S74.8
+60600,593662,1573697,Injury of unspecified nerve at hip and thigh level,Condition,ICD10CM,4-char nonbill code,,S74.9,20120101,20991231,,Injury of unspecified nerve at hip and thigh level,S74.9
+60665,593727,1573704,Injury of femoral vein at hip and thigh level,Condition,ICD10CM,4-char nonbill code,,S75.1,20120101,20991231,,Injury of femoral vein at hip and thigh level,S75.1
+60718,593780,1573709,Injury of greater saphenous vein at hip and thigh level,Condition,ICD10CM,4-char nonbill code,,S75.2,20120101,20991231,,Injury of greater saphenous vein at hip and thigh level,S75.2
+60773,593835,1573714,Injury of other blood vessels at hip and thigh level,Condition,ICD10CM,4-char nonbill code,,S75.8,20120101,20991231,,Injury of other blood vessels at hip and thigh level,S75.8
+60853,593915,1573723,"Injury of muscle, fascia and tendon of hip",Condition,ICD10CM,4-char nonbill code,,S76.0,20120101,20991231,,"Injury of muscle, fascia and tendon of hip",S76.0
+60905,593967,1573728,"Injury of quadriceps muscle, fascia and tendon",Condition,ICD10CM,4-char nonbill code,,S76.1,20120101,20991231,,"Injury of quadriceps muscle, fascia and tendon",S76.1
+60956,594018,1573733,"Injury of adductor muscle, fascia and tendon of thigh",Condition,ICD10CM,4-char nonbill code,,S76.2,20120101,20991231,,"Injury of adductor muscle, fascia and tendon of thigh",S76.2
+61008,594070,1573738,"Injury of muscle, fascia and tendon of the posterior muscle group at thigh level",Condition,ICD10CM,4-char nonbill code,,S76.3,20120101,20991231,,"Injury of muscle, fascia and tendon of the posterior muscle group at thigh level",S76.3
+61060,594122,1573743,"Injury of other specified muscles, fascia and tendons at thigh level",Condition,ICD10CM,4-char nonbill code,,S76.8,20120101,20991231,,"Injury of other specified muscles, fascia and tendons at thigh level",S76.8
+61114,594176,1573748,"Injury of unspecified muscles, fascia and tendons at thigh level",Condition,ICD10CM,4-char nonbill code,,S76.9,20120101,20991231,,"Injury of unspecified muscles, fascia and tendons at thigh level",S76.9
+61168,594230,1573754,Crushing injury of hip,Condition,ICD10CM,4-char nonbill code,,S77.0,20120101,20991231,,Crushing injury of hip,S77.0
+61181,594243,1573755,Crushing injury of thigh,Condition,ICD10CM,4-char nonbill code,,S77.1,20120101,20991231,,Crushing injury of thigh,S77.1
+61194,594256,1573756,Crushing injury of hip with thigh,Condition,ICD10CM,4-char nonbill code,,S77.2,20120101,20991231,,Crushing injury of hip with thigh,S77.2
+61207,594269,1573758,Traumatic amputation at hip joint,Condition,ICD10CM,4-char nonbill code,,S78.0,20120101,20991231,,Traumatic amputation at hip joint,S78.0
+61234,594296,1573761,Traumatic amputation at level between hip and knee,Condition,ICD10CM,4-char nonbill code,,S78.1,20120101,20991231,,Traumatic amputation at level between hip and knee,S78.1
+61261,594323,1573764,"Traumatic amputation of hip and thigh, level unspecified",Condition,ICD10CM,4-char nonbill code,,S78.9,20120101,20991231,,"Traumatic amputation of hip and thigh, level unspecified",S78.9
+61356,594418,1573772,Physeal fracture of lower end of femur,Condition,ICD10CM,4-char nonbill code,,S79.1,20120101,20991231,,Physeal fracture of lower end of femur,S79.1
+61488,594550,1573779,Other specified injuries of hip and thigh,Condition,ICD10CM,4-char nonbill code,,S79.8,20120101,20991231,,Other specified injuries of hip and thigh,S79.8
+61514,594576,1573782,Unspecified injury of hip and thigh,Condition,ICD10CM,4-char nonbill code,,S79.9,20120101,20991231,,Unspecified injury of hip and thigh,S79.9
+61542,594604,1573786,Contusion of knee,Condition,ICD10CM,4-char nonbill code,,S80.0,20120101,20991231,,Contusion of knee,S80.0
+61555,594617,1573787,Contusion of lower leg,Condition,ICD10CM,4-char nonbill code,,S80.1,20120101,20991231,,Contusion of lower leg,S80.1
+61567,594629,1573788,Other superficial injuries of knee,Condition,ICD10CM,4-char nonbill code,,S80.2,20120101,20991231,,Other superficial injuries of knee,S80.2
+61646,594708,1573794,Other superficial injuries of lower leg,Condition,ICD10CM,4-char nonbill code,,S80.8,20120101,20991231,,Other superficial injuries of lower leg,S80.8
+61724,594786,1573801,Unspecified superficial injury of knee and lower leg,Condition,ICD10CM,4-char nonbill code,,S80.9,20120101,20991231,,Unspecified superficial injury of knee and lower leg,S80.9
+61751,594813,1573805,Open wound of knee,Condition,ICD10CM,4-char nonbill code,,S81.0,20120101,20991231,,Open wound of knee,S81.0
+61830,594892,1573812,Open wound of lower leg,Condition,ICD10CM,4-char nonbill code,,S81.8,20120101,20991231,,Open wound of lower leg,S81.8
+61909,594971,1573820,Fracture of patella,Condition,ICD10CM,4-char nonbill code,,S82.0,20120101,20991231,,Fracture of patella,S82.0
+62426,595488,1573826,Fracture of upper end of tibia,Condition,ICD10CM,4-char nonbill code,,S82.1,20120101,20991231,,Fracture of upper end of tibia,S82.1
+63068,596130,1573835,Fracture of shaft of tibia,Condition,ICD10CM,4-char nonbill code,,S82.2,20120101,20991231,,Fracture of shaft of tibia,S82.2
+63610,596672,1573847,Fracture of shaft of fibula,Condition,ICD10CM,4-char nonbill code,,S82.4,20120101,20991231,,Fracture of shaft of fibula,S82.4
+63686,596748,1573843,Fracture of lower end of tibia,Condition,ICD10CM,4-char nonbill code,,S82.3,20120101,20991231,,Fracture of lower end of tibia,S82.3
+64422,597484,1573855,Fracture of medial malleolus,Condition,ICD10CM,4-char nonbill code,,S82.5,20120101,20991231,,Fracture of medial malleolus,S82.5
+64525,597587,1573856,Fracture of lateral malleolus,Condition,ICD10CM,4-char nonbill code,,S82.6,20120101,20991231,,Fracture of lateral malleolus,S82.6
+64628,597690,1573857,Other fractures of lower leg,Condition,ICD10CM,4-char nonbill code,,S82.8,20120101,20991231,,Other fractures of lower leg,S82.8
+65187,598249,1573866,Unspecified fracture of lower leg,Condition,ICD10CM,4-char nonbill code,,S82.9,20120101,20991231,,Unspecified fracture of lower leg,S82.9
+65239,598301,1573868,Subluxation and dislocation of patella,Condition,ICD10CM,4-char nonbill code,,S83.0,20120101,20991231,,Subluxation and dislocation of patella,S83.0
+65305,598367,1573872,Subluxation and dislocation of knee,Condition,ICD10CM,4-char nonbill code,,S83.1,20120101,20991231,,Subluxation and dislocation of knee,S83.1
+65455,598517,1573879,"Tear of meniscus, current injury",Condition,ICD10CM,4-char nonbill code,,S83.2,20120101,20991231,,"Tear of meniscus, current injury",S83.2
+65597,598659,1573889,"Tear of articular cartilage of knee, current",Condition,ICD10CM,4-char nonbill code,,S83.3,20120101,20991231,,"Tear of articular cartilage of knee, current",S83.3
+65610,598672,1573890,Sprain of collateral ligament of knee,Condition,ICD10CM,4-char nonbill code,,S83.4,20120101,20991231,,Sprain of collateral ligament of knee,S83.4
+65650,598712,1573892,Sprain of cruciate ligament of knee,Condition,ICD10CM,4-char nonbill code,,S83.5,20120101,20991231,,Sprain of cruciate ligament of knee,S83.5
+65690,598752,1573894,Sprain of the superior tibiofibular joint and ligament,Condition,ICD10CM,4-char nonbill code,,S83.6,20120101,20991231,,Sprain of the superior tibiofibular joint and ligament,S83.6
+65703,598765,1573895,Sprain of other specified parts of knee,Condition,ICD10CM,4-char nonbill code,,S83.8,20120101,20991231,,Sprain of other specified parts of knee,S83.8
+65717,598779,1573897,Sprain of unspecified site of knee,Condition,ICD10CM,4-char nonbill code,,S83.9,20120101,20991231,,Sprain of unspecified site of knee,S83.9
+65731,598793,1573899,Injury of tibial nerve at lower leg level,Condition,ICD10CM,4-char nonbill code,,S84.0,20120101,20991231,,Injury of tibial nerve at lower leg level,S84.0
+65744,598806,1573900,Injury of peroneal nerve at lower leg level,Condition,ICD10CM,4-char nonbill code,,S84.1,20120101,20991231,,Injury of peroneal nerve at lower leg level,S84.1
+65757,598819,1573901,Injury of cutaneous sensory nerve at lower leg level,Condition,ICD10CM,4-char nonbill code,,S84.2,20120101,20991231,,Injury of cutaneous sensory nerve at lower leg level,S84.2
+65770,598832,1573902,Injury of other nerves at lower leg level,Condition,ICD10CM,4-char nonbill code,,S84.8,20120101,20991231,,Injury of other nerves at lower leg level,S84.8
+65785,598847,1573904,Injury of unspecified nerve at lower leg level,Condition,ICD10CM,4-char nonbill code,,S84.9,20120101,20991231,,Injury of unspecified nerve at lower leg level,S84.9
+65799,598861,1573906,Injury of popliteal artery,Condition,ICD10CM,4-char nonbill code,,S85.0,20120101,20991231,,Injury of popliteal artery,S85.0
+65839,598901,1573910,Injury of tibial artery,Condition,ICD10CM,4-char nonbill code,,S85.1,20120101,20991231,,Injury of tibial artery,S85.1
+65955,599017,1573918,Injury of peroneal artery,Condition,ICD10CM,4-char nonbill code,,S85.2,20120101,20991231,,Injury of peroneal artery,S85.2
+65995,599057,1573922,Injury of greater saphenous vein at lower leg level,Condition,ICD10CM,4-char nonbill code,,S85.3,20120101,20991231,,Injury of greater saphenous vein at lower leg level,S85.3
+66036,599098,1573926,Injury of lesser saphenous vein at lower leg level,Condition,ICD10CM,4-char nonbill code,,S85.4,20120101,20991231,,Injury of lesser saphenous vein at lower leg level,S85.4
+66076,599138,1573930,Injury of popliteal vein,Condition,ICD10CM,4-char nonbill code,,S85.5,20120101,20991231,,Injury of popliteal vein,S85.5
+66116,599178,1573934,Injury of other blood vessels at lower leg level,Condition,ICD10CM,4-char nonbill code,,S85.8,20120101,20991231,,Injury of other blood vessels at lower leg level,S85.8
+66156,599218,1573938,Injury of unspecified blood vessel at lower leg level,Condition,ICD10CM,4-char nonbill code,,S85.9,20120101,20991231,,Injury of unspecified blood vessel at lower leg level,S85.9
+66198,599260,1573943,Injury of Achilles tendon,Condition,ICD10CM,4-char nonbill code,,S86.0,20120101,20991231,,Injury of Achilles tendon,S86.0
+66246,599308,1573947,Injury of other muscle(s) and tendon(s) of posterior muscle group at lower leg level,Condition,ICD10CM,4-char nonbill code,,S86.1,20120101,20991231,,Injury of other muscle(s) and tendon(s) of posterior muscle group at lower leg level,S86.1
+66299,599361,1573952,Injury of muscle(s) and tendon(s) of anterior muscle group at lower leg level,Condition,ICD10CM,4-char nonbill code,,S86.2,20120101,20991231,,Injury of muscle(s) and tendon(s) of anterior muscle group at lower leg level,S86.2
+66353,599415,1573957,Injury of muscle(s) and tendon(s) of peroneal muscle group at lower leg level,Condition,ICD10CM,4-char nonbill code,,S86.3,20120101,20991231,,Injury of muscle(s) and tendon(s) of peroneal muscle group at lower leg level,S86.3
+66459,599521,1573967,Injury of unspecified muscle and tendon at lower leg level,Condition,ICD10CM,4-char nonbill code,,S86.9,20120101,20991231,,Injury of unspecified muscle and tendon at lower leg level,S86.9
+66514,599576,1573973,Crushing injury of knee,Condition,ICD10CM,4-char nonbill code,,S87.0,20120101,20991231,,Crushing injury of knee,S87.0
+66527,599589,1573974,Crushing injury of lower leg,Condition,ICD10CM,4-char nonbill code,,S87.8,20120101,20991231,,Crushing injury of lower leg,S87.8
+66541,599603,1573976,Traumatic amputation at knee level,Condition,ICD10CM,4-char nonbill code,,S88.0,20120101,20991231,,Traumatic amputation at knee level,S88.0
+66568,599630,1573979,Traumatic amputation at level between knee and ankle,Condition,ICD10CM,4-char nonbill code,,S88.1,20120101,20991231,,Traumatic amputation at level between knee and ankle,S88.1
+66594,599656,1573982,"Traumatic amputation of lower leg, level unspecified",Condition,ICD10CM,4-char nonbill code,,S88.9,20120101,20991231,,"Traumatic amputation of lower leg, level unspecified",S88.9
+66606,599668,1574010,Other specified injuries of lower leg,Condition,ICD10CM,4-char nonbill code,,S89.8,20120101,20991231,,Other specified injuries of lower leg,S89.8
+66756,599818,1573993,Physeal fracture of lower end of tibia,Condition,ICD10CM,4-char nonbill code,,S89.1,20120101,20991231,,Physeal fracture of lower end of tibia,S89.1
+66976,600038,1574005,Physeal fracture of lower end of fibula,Condition,ICD10CM,4-char nonbill code,,S89.3,20120101,20991231,,Physeal fracture of lower end of fibula,S89.3
+67052,600114,1574014,Contusion of toe without damage to nail,Condition,ICD10CM,4-char nonbill code,,S90.1,20120101,20991231,,Contusion of toe without damage to nail,S90.1
+67076,600138,1574011,Unspecified injury of lower leg,Condition,ICD10CM,4-char nonbill code,,S89.9,20120101,20991231,,Unspecified injury of lower leg,S89.9
+67090,600152,1574013,Contusion of ankle,Condition,ICD10CM,4-char nonbill code,,S90.0,20120101,20991231,,Contusion of ankle,S90.0
+67129,600191,1574017,Contusion of toe with damage to nail,Condition,ICD10CM,4-char nonbill code,,S90.2,20120101,20991231,,Contusion of toe with damage to nail,S90.2
+67156,600218,1574020,Contusion of foot,Condition,ICD10CM,4-char nonbill code,,S90.3,20120101,20991231,,Contusion of foot,S90.3
+67169,600231,1574021,Other superficial injuries of toe,Condition,ICD10CM,4-char nonbill code,,S90.4,20120101,20991231,,Other superficial injuries of toe,S90.4
+67320,600382,1574028,Other superficial injuries of ankle,Condition,ICD10CM,4-char nonbill code,,S90.5,20120101,20991231,,Other superficial injuries of ankle,S90.5
+67473,600535,1574041,"Unspecified superficial injury of ankle, foot and toe",Condition,ICD10CM,4-char nonbill code,,S90.9,20120101,20991231,,"Unspecified superficial injury of ankle, foot and toe",S90.9
+67526,600588,1574046,Open wound of ankle,Condition,ICD10CM,4-char nonbill code,,S91.0,20120101,20991231,,Open wound of ankle,S91.0
+67603,600665,1574053,Open wound of toe without damage to nail,Condition,ICD10CM,4-char nonbill code,,S91.1,20120101,20991231,,Open wound of toe without damage to nail,S91.1
+67777,600839,1574060,Open wound of toe with damage to nail,Condition,ICD10CM,4-char nonbill code,,S91.2,20120101,20991231,,Open wound of toe with damage to nail,S91.2
+67953,601015,1574067,Open wound of foot,Condition,ICD10CM,4-char nonbill code,,S91.3,20120101,20991231,,Open wound of foot,S91.3
+68031,601093,1574075,Fracture of calcaneus,Condition,ICD10CM,4-char nonbill code,,S92.0,20120101,20991231,,Fracture of calcaneus,S92.0
+68351,601413,1574083,Fracture of talus,Condition,ICD10CM,4-char nonbill code,,S92.1,20120101,20991231,,Fracture of talus,S92.1
+68645,601707,1574090,Fracture of other and unspecified tarsal bone(s),Condition,ICD10CM,4-char nonbill code,,S92.2,20120101,20991231,,Fracture of other and unspecified tarsal bone(s),S92.2
+68917,601979,1574097,Fracture of metatarsal bone(s),Condition,ICD10CM,4-char nonbill code,,S92.3,20120101,20991231,,Fracture of metatarsal bone(s),S92.3
+69184,602246,1574104,Fracture of great toe,Condition,ICD10CM,4-char nonbill code,,S92.4,20120101,20991231,,Fracture of great toe,S92.4
+69358,602420,1574109,Fracture of lesser toe(s),Condition,ICD10CM,4-char nonbill code,,S92.5,20120101,20991231,,Fracture of lesser toe(s),S92.5
+69580,602642,37201457,"Other fracture of foot, except ankle",Condition,ICD10CM,4-char nonbill code,,S92.8,20170101,20991231,,"Other fracture of foot, except ankle",S92.8
+69604,602666,1574115,Unspecified fracture of foot and toe,Condition,ICD10CM,4-char nonbill code,,S92.9,20120101,20991231,,Unspecified fracture of foot and toe,S92.9
+69657,602719,1574119,Subluxation and dislocation of ankle joint,Condition,ICD10CM,4-char nonbill code,,S93.0,20120101,20991231,,Subluxation and dislocation of ankle joint,S93.0
+69682,602744,1574120,Subluxation and dislocation of toe,Condition,ICD10CM,4-char nonbill code,,S93.1,20120101,20991231,,Subluxation and dislocation of toe,S93.1
+69819,602881,1574126,Subluxation and dislocation of foot,Condition,ICD10CM,4-char nonbill code,,S93.3,20120101,20991231,,Subluxation and dislocation of foot,S93.3
+69919,602981,1574131,Sprain of ankle,Condition,ICD10CM,4-char nonbill code,,S93.4,20120101,20991231,,Sprain of ankle,S93.4
+69985,603047,1574135,Sprain of toe,Condition,ICD10CM,4-char nonbill code,,S93.5,20120101,20991231,,Sprain of toe,S93.5
+70126,603188,1574144,Injury of lateral plantar nerve,Condition,ICD10CM,4-char nonbill code,,S94.0,20120101,20991231,,Injury of lateral plantar nerve,S94.0
+70139,603201,1574145,Injury of medial plantar nerve,Condition,ICD10CM,4-char nonbill code,,S94.1,20120101,20991231,,Injury of medial plantar nerve,S94.1
+70151,603213,1574146,Injury of deep peroneal nerve at ankle and foot level,Condition,ICD10CM,4-char nonbill code,,S94.2,20120101,20991231,,Injury of deep peroneal nerve at ankle and foot level,S94.2
+70164,603226,1574147,Injury of cutaneous sensory nerve at ankle and foot level,Condition,ICD10CM,4-char nonbill code,,S94.3,20120101,20991231,,Injury of cutaneous sensory nerve at ankle and foot level,S94.3
+70177,603239,1574148,Injury of other nerves at ankle and foot level,Condition,ICD10CM,4-char nonbill code,,S94.8,20120101,20991231,,Injury of other nerves at ankle and foot level,S94.8
+70191,603253,1574150,Injury of unspecified nerve at ankle and foot level,Condition,ICD10CM,4-char nonbill code,,S94.9,20120101,20991231,,Injury of unspecified nerve at ankle and foot level,S94.9
+70205,603267,1574152,Injury of dorsal artery of foot,Condition,ICD10CM,4-char nonbill code,,S95.0,20120101,20991231,,Injury of dorsal artery of foot,S95.0
+70245,603307,1574156,Injury of plantar artery of foot,Condition,ICD10CM,4-char nonbill code,,S95.1,20120101,20991231,,Injury of plantar artery of foot,S95.1
+70285,603347,1574160,Injury of dorsal vein of foot,Condition,ICD10CM,4-char nonbill code,,S95.2,20120101,20991231,,Injury of dorsal vein of foot,S95.2
+70325,603387,1574164,Injury of other blood vessels at ankle and foot level,Condition,ICD10CM,4-char nonbill code,,S95.8,20120101,20991231,,Injury of other blood vessels at ankle and foot level,S95.8
+70365,603427,1574168,Injury of unspecified blood vessel at ankle and foot level,Condition,ICD10CM,4-char nonbill code,,S95.9,20120101,20991231,,Injury of unspecified blood vessel at ankle and foot level,S95.9
+70405,603467,1574173,Injury of muscle and tendon of long flexor muscle of toe at ankle and foot level,Condition,ICD10CM,4-char nonbill code,,S96.0,20120101,20991231,,Injury of muscle and tendon of long flexor muscle of toe at ankle and foot level,S96.0
+70458,603520,1574178,Injury of muscle and tendon of long extensor muscle of toe at ankle and foot level,Condition,ICD10CM,4-char nonbill code,,S96.1,20120101,20991231,,Injury of muscle and tendon of long extensor muscle of toe at ankle and foot level,S96.1
+70511,603573,1574183,Injury of intrinsic muscle and tendon at ankle and foot level,Condition,ICD10CM,4-char nonbill code,,S96.2,20120101,20991231,,Injury of intrinsic muscle and tendon at ankle and foot level,S96.2
+70564,603626,1574188,Injury of other specified muscles and tendons at ankle and foot level,Condition,ICD10CM,4-char nonbill code,,S96.8,20120101,20991231,,Injury of other specified muscles and tendons at ankle and foot level,S96.8
+70617,603679,1574193,Injury of unspecified muscle and tendon at ankle and foot level,Condition,ICD10CM,4-char nonbill code,,S96.9,20120101,20991231,,Injury of unspecified muscle and tendon at ankle and foot level,S96.9
+70670,603732,1574199,Crushing injury of ankle,Condition,ICD10CM,4-char nonbill code,,S97.0,20120101,20991231,,Crushing injury of ankle,S97.0
+70683,603745,1574200,Crushing injury of toe,Condition,ICD10CM,4-char nonbill code,,S97.1,20120101,20991231,,Crushing injury of toe,S97.1
+70736,603798,1574206,Traumatic amputation of foot at ankle level,Condition,ICD10CM,4-char nonbill code,,S98.0,20120101,20991231,,Traumatic amputation of foot at ankle level,S98.0
+70763,603825,1574209,Traumatic amputation of one toe,Condition,ICD10CM,4-char nonbill code,,S98.1,20120101,20991231,,Traumatic amputation of one toe,S98.1
+70816,603878,1574214,Traumatic amputation of two or more lesser toes,Condition,ICD10CM,4-char nonbill code,,S98.2,20120101,20991231,,Traumatic amputation of two or more lesser toes,S98.2
+70843,603905,1574217,Traumatic amputation of midfoot,Condition,ICD10CM,4-char nonbill code,,S98.3,20120101,20991231,,Traumatic amputation of midfoot,S98.3
+70870,603932,1574220,"Traumatic amputation of foot, level unspecified",Condition,ICD10CM,4-char nonbill code,,S98.9,20120101,20991231,,"Traumatic amputation of foot, level unspecified",S98.9
+70898,603960,37201483,Physeal fracture of calcaneus,Condition,ICD10CM,4-char nonbill code,,S99.0,20170101,20991231,,Physeal fracture of calcaneus,S99.0
+71049,604111,37201634,Physeal fracture of metatarsal,Condition,ICD10CM,4-char nonbill code,,S99.1,20170101,20991231,,Physeal fracture of metatarsal,S99.1
+71200,604262,37201785,Physeal fracture of phalanx of toe,Condition,ICD10CM,4-char nonbill code,,S99.2,20170101,20991231,,Physeal fracture of phalanx of toe,S99.2
+71349,604411,1574224,Other specified injuries of ankle and foot,Condition,ICD10CM,4-char nonbill code,,S99.8,20120101,20991231,,Other specified injuries of ankle and foot,S99.8
+71374,604436,1574227,Unspecified injury of ankle and foot,Condition,ICD10CM,4-char nonbill code,,S99.9,20120101,20991231,,Unspecified injury of ankle and foot,S99.9

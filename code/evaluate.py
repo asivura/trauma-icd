@@ -49,18 +49,7 @@ def recall_at_k(true_labels, pred_probs):
     return output, r5_scores
 
 
-def compute_metrics(targets, probs, threshold=None, prefix=''):
-  """Given targets and predictions, compute metrics.
-
-  Args:
-      targets (np.ndarray): true labels of shape (num_examples, num_classes) 
-      probs (np.ndarray): predicted probabilities of shape (num_examples, num_classes)
-      threshold (float): threshold to obtain binary predictions from probabilities
-      prefix (str): prefix to add to metric names, e.g., "eval"
-
-  Returns:
-      metrics (dict): dictionary of metric names and values
-  """
+def compute_metrics(targets, probs, threshold=None, prefix='', eval_args={}):
   probs = np.array(probs)
   targets = np.array(targets)
   
@@ -71,7 +60,7 @@ def compute_metrics(targets, probs, threshold=None, prefix=''):
       t = round(t, 2)
       preds = (probs > t).astype(float)
       score = metrics.f1_score(targets, preds, average='weighted', zero_division=0)
-      if score > cur_max:
+      if score >= cur_max:
         threshold = t
         cur_max = score
 
@@ -107,7 +96,8 @@ def compute_metrics(targets, probs, threshold=None, prefix=''):
       f'{prefix}auc_score_samples': auc_score_samples,
       f'{prefix}auc_score_weighted': auc_score_weighted,
       f'{prefix}targets_shape': targets.shape,
-      f'{prefix}probs_shape': probs.shape
+      f'{prefix}probs_shape': probs.shape,
+      f'{prefix}_model_train_args': str(eval_args)
   }
   ks = [1, 5, 8, 10, 15, 20]
   
